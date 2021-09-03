@@ -27,25 +27,25 @@ function Navbar(props) {
         <div className={`${onHover ? "hidden" : null}`}>
           <div
             onClick={() => history.push("home")}
-            className="mt-6  cursor-pointer  text-white font-light text-2xl p-1 w-12 ml-2 border-b border-white border-opacity-50 py-4"
+            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-2 border-b border-white border-opacity-50 py-4"
           >
             <AiFillHome />
           </div>
           <div
             onClick={() => history.push("classroom")}
-            className="mt-6  cursor-pointer  text-white font-light text-2xl p-1 w-12 ml-2 border-b border-white border-opacity-50 py-4"
+            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-2 border-b border-white border-opacity-50 py-4"
           >
             <SiGoogleclassroom />
           </div>
           <div
             onClick={() => history.push("chat")}
-            className="mt-6  cursor-pointer  text-white font-light text-2xl p-1 w-12 ml-2 border-b border-white border-opacity-50 py-4"
+            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-2 border-b border-white border-opacity-50 py-4"
           >
             <BsFillChatDotsFill />
           </div>
           <div
             onClick={() => history.push("contributors")}
-            className="mt-6  cursor-pointer  text-white font-light text-2xl p-1 w-12 ml-2 border-b border-white border-opacity-50 py-4"
+            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-2 border-b border-white border-opacity-50 py-4"
           >
             <RiTeamFill />
           </div>
@@ -62,7 +62,7 @@ function Navbar(props) {
           </div>
           <div
             onClick={() => history.push("home")}
-            className="flex  m-8 cursor-pointer "
+            className="flex  m-8 cursor-pointer opacity-90 hover:opacity-100 "
           >
             <span className="text-white p-1 text-2xl">
               <AiFillHome />
@@ -74,7 +74,7 @@ function Navbar(props) {
           </div>{" "}
           <div
             onClick={() => history.push("classroom")}
-            className="flex m-8 cursor-pointer"
+            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100"
           >
             <span className="text-white p-1 text-2xl flex h-12  align-center">
               <SiGoogleclassroom />
@@ -86,7 +86,7 @@ function Navbar(props) {
           </div>{" "}
           <div
             onClick={() => history.push("chat")}
-            className="flex m-8 cursor-pointer"
+            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100"
           >
             <span className="text-white p-1 text-2xl flex h-12  align-center">
               <BsFillChatDotsFill />
@@ -98,13 +98,13 @@ function Navbar(props) {
           </div>{" "}
           <div
             onClick={() => history.push("contributors")}
-            className="flex m-8 cursor-pointer"
+            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100"
           >
             <span className="text-white p-1 text-2xl flex h-12  align-center">
               <RiTeamFill />
             </span>
 
-            <span className="text-white font-light text-2xl p-1  border-b border-white border-opacity-50 flex h-12  align-center">
+            <span className="text-white font-light text-2xl p-1  border-b border-white border-opacity-50 flex h-12  align-center ">
               Contributors
             </span>
           </div>{" "}
