@@ -51,7 +51,7 @@ function Navbar(props) {
           </div>
         </div>
 
-        <div className={`${!onHover ? "hidden" : "visible "}`}>
+        <div className={`overflow-hidden	 ${!onHover ? "hidden" : "visible "}`}>
           <div
             onClick={() => setOnHover(!onHover)}
             className={`ml-48 py-12 text-white font-light text-2xl p-1 w-12 ml-2 cursor-pointer ${
