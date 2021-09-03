@@ -5,7 +5,7 @@ function Chatroom() {
     <>
       <div className="w-full">
         {" "}
-        <div className="text-3xl text-white font-extralight ml-52 mt-8">
+        <div className="text-3xl text-white font-extralight ml-48 mt-8">
           Chatroom
         </div>{" "}
         <div className="flex justify-around mt-16">

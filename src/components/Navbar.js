@@ -1,8 +1,7 @@
 import React from "react";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillChatDotsFill } from "react-icons/bs";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { HiMenuAlt3 } from "react-icons/hi";
+import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { RiTeamFill } from "react-icons/ri";
 import { SiGoogleclassroom } from "react-icons/si";
 import { useHistory } from "react-router";
@@ -23,7 +22,7 @@ function Navbar(props) {
             onHover ? "hidden" : null
           }`}
         >
-          <GiHamburgerMenu />
+          <HiMenuAlt1 />
         </div>
         <div className={`${onHover ? "hidden" : null}`}>
           <div
@@ -61,7 +60,10 @@ function Navbar(props) {
           >
             <HiMenuAlt3 />
           </div>
-          <div className="flex  m-8 cursor-pointer ">
+          <div
+            onClick={() => history.push("home")}
+            className="flex  m-8 cursor-pointer "
+          >
             <span className="text-white p-1 text-2xl">
               <AiFillHome />
             </span>
@@ -70,7 +72,10 @@ function Navbar(props) {
               Home
             </span>
           </div>{" "}
-          <div className="flex m-8 cursor-pointer">
+          <div
+            onClick={() => history.push("classroom")}
+            className="flex m-8 cursor-pointer"
+          >
             <span className="text-white p-1 text-2xl flex h-12  align-center">
               <SiGoogleclassroom />
             </span>
@@ -79,7 +84,10 @@ function Navbar(props) {
               Classroom
             </span>
           </div>{" "}
-          <div className="flex m-8 cursor-pointer">
+          <div
+            onClick={() => history.push("chat")}
+            className="flex m-8 cursor-pointer"
+          >
             <span className="text-white p-1 text-2xl flex h-12  align-center">
               <BsFillChatDotsFill />
             </span>
@@ -88,7 +96,10 @@ function Navbar(props) {
               Chat
             </span>
           </div>{" "}
-          <div className="flex m-8 cursor-pointer">
+          <div
+            onClick={() => history.push("contributors")}
+            className="flex m-8 cursor-pointer"
+          >
             <span className="text-white p-1 text-2xl flex h-12  align-center">
               <RiTeamFill />
             </span>
