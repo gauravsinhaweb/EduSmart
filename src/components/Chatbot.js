@@ -6,12 +6,12 @@ import { useHistory } from "react-router-dom";
 const theme = {
     background: "#F4F5F6",
     fontFamily: "sans-serif",
-    headerBgColor: "#1f3d7a",
+    headerBgColor: "#03719C",
     headerFontColor: "#fff",
     headerFontSize: "16px",
-    botBubbleColor: "#152951",
+    botBubbleColor: "#03719C",
     botFontColor: "#fff",
-    userBubbleColor: "#5d85d5",
+    userBubbleColor: "#03719C",
     userFontColor: "#fff",
 };
 

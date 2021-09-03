@@ -3,7 +3,7 @@ import chatsvg from "../assets/chatroom.svg";
 function Chatroom() {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full h-screen">
         {" "}
         <div className="text-3xl text-white font-extralight ml-48 mt-8">
           Chatroom
