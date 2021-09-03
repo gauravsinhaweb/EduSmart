@@ -12,22 +12,20 @@ function Navbar(props) {
   return (
     <>
       <div
-        className={`rounded-r-2xl h-screen bg-tertiary transition-all group  ${
-          !onHover ? "w-16" : "w-64"
-        }`}
+        className={`rounded-r-2xl h-screen bg-tertiary z-10 fixed transition-all group  ${!onHover ? "w-16" : "w-64"
+          }`}
       >
         <div
           onClick={() => setOnHover(!onHover)}
-          className={`text-white font-light text-2xl p-1 w-12 ml-2  py-12 cursor-pointer   ${
-            onHover ? "hidden" : null
-          }`}
+          className={`text-white font-light text-2xl p-1 w-12 ml-2  py-12 cursor-pointer   ${onHover ? "hidden" : null
+            }`}
         >
           <HiMenuAlt1 />
         </div>
         <div className={`${onHover ? "hidden" : null}`}>
           <div
             onClick={() => history.push("home")}
-            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-2 border-b border-white border-opacity-50 py-4"
+            className="mt-6 cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-2 border-b border-white border-opacity-50 py-4"
           >
             <AiFillHome />
           </div>
@@ -54,9 +52,8 @@ function Navbar(props) {
         <div className={`${!onHover ? "hidden" : "visible "}`}>
           <div
             onClick={() => setOnHover(!onHover)}
-            className={`ml-48 py-12 text-white font-light text-2xl p-1 w-12 ml-2 cursor-pointer ${
-              !onHover ? "hidden" : null
-            }`}
+            className={`ml-48 py-12 text-white font-light text-2xl p-1 w-12 ml-2 cursor-pointer ${!onHover ? "hidden" : null
+              }`}
           >
             <HiMenuAlt3 />
           </div>
