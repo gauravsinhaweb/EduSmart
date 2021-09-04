@@ -1,12 +1,31 @@
 import React from "react";
+import About from "./About";
+import Chatroom from "./Chatroom";
+import Classroom from "./Classroom";
+import Contributors from "./Contributors";
 
 function Home() {
   return (
-    <div className="w-full h-screen">
-      <div className="ml-24 mt-8 text-white">
-        Home
+    <>
+      <div className="flex flex-col	">
+        {" "}
+        <div>
+          <About />
+        </div>
+        <div>
+          {" "}
+          <Classroom />
+        </div>
+        <div>
+          {" "}
+          <Chatroom />
+        </div>
+        <div>
+          {" "}
+          <Contributors />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

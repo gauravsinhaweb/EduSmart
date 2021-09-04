@@ -5,18 +5,18 @@ function Chatroom() {
     <>
       <div className="w-full h-screen">
         {" "}
-        <div className="text-3xl text-white font-extralight ml-48 mt-8">
-          Chatroom
+        <div className="text-3xl text-white font-extralight ml-40 mt-8">
+          Chatroom 💬
         </div>{" "}
         <div className="flex justify-around mt-16">
           <div className="h-64 w-80 bg-secondary rounded-2xl cursor-pointer 	active:bg-highlight ">
             <div className="text-white text-2xl flex justify-center h-full items-center font-medium">
-              Teacher
+              Teacher 👩‍🏫
             </div>
           </div>
           <div className="h-64 w-80  bg-secondary rounded-2xl cursor-pointer   active:bg-highlight">
             <div className="text-white text-2xl flex justify-center h-full items-center font-medium">
-              Student
+              Student 👨‍🎓
             </div>
           </div>{" "}
         </div>
