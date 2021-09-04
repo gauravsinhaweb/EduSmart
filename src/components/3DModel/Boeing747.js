@@ -46,8 +46,8 @@ export default function Boeing747() {
                             <p className="self-center mx-8 text-lg tracking-wide text-center mt-2 text-white">To view the 3D model in AR, scan the QR code or click on the button below.</p>
 
                             <div className="grid justify-center grid-cols-1 gap-6 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
-                                <img className="flex p-6 text-6xl rounded-xl h-60 w-60" src="https://storage.echoar.xyz/wispy-violet-4999/90a2a92c-b69d-45d4-8935-9ea307faeb05" alt="Earth QR" />
-                                <a href="https://go.echoar.xyz/J8oi" target="_blank" rel="noreferrer">
+                                <img className="flex p-6 text-6xl rounded-xl h-60 w-60" src="https://storage.echoar.xyz/wispy-violet-4999/c6c12f53-b87b-44bd-be78-3300b57a6462" alt="Boeing 747 QR" />
+                                <a href="https://go.echoar.xyz/7sFk" target="_blank" rel="noreferrer">
                                     <button className="h-12 px-8 ml-12 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">View in AR</button>
                                 </a>
                             </div>

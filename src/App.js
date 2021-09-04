@@ -7,6 +7,9 @@ import About from "./pages/About";
 import Chatroom from "./pages/Chatroom";
 import Classroom from "./pages/Classroom";
 import MediaclPage from "./pages/Medical"
+import AnimalCellExplore from "./components/3DExplore/AnimalCellExplore"
+import Boeing777Explore from "./components/3DExplore/Boeing777Explore"
+import TurbofanExplore from "./components/3DExplore/TurbofanExplore"
 import AeroSpacePage from "./pages/AreoSpace"
 import Contributors from "./pages/Contributors";
 import Home from "./pages/Home";
@@ -32,6 +35,9 @@ function App() {
             <Route path="/chat" exact component={Chatroom} />
             <Route path="/classroom" exact component={Classroom} />
             <Route path="/mediaclPage" exact component={MediaclPage} />
+            <Route path="/animalCellExplore" exact component={AnimalCellExplore} />
+            <Route path="/boeing777Explore" exact component={Boeing777Explore} />
+            <Route path="/turbofanExplore" exact component={TurbofanExplore} />
             <Route path="/aerospacePage" exact component={AeroSpacePage} />
             <Route path="/contributors" exact component={Contributors} />
 

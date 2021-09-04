@@ -71,11 +71,11 @@ export default function PlantCell() {
               <div className="grid justify-center grid-cols-1 gap-6 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
                 <img
                   className="flex p-6 text-6xl rounded-xl h-60 w-60"
-                  src="https://storage.echoar.xyz/wispy-violet-4999/90a2a92c-b69d-45d4-8935-9ea307faeb05"
-                  alt="Earth QR"
+                  src="https://storage.echoar.xyz/wispy-violet-4999/747da7b2-6fc3-44f9-bcfd-f972645684f3"
+                  alt="Plant Cell QR"
                 />
                 <a
-                  href="https://go.echoar.xyz/J8oi"
+                  href="https://go.echoar.xyz/PvQw"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { useLoader } from "@react-three/fiber";
@@ -43,13 +44,15 @@ export default function Boeing777() {
                             <p className="self-center mx-8 text-lg font-medium tracking-wide text-justify text-white">The Boeing 777, commonly referred to as the Triple Seven, is an American wide-body airliner developed and manufactured by Boeing Commercial Airplanes. It is the world's largest twinjet. The 777 was designed to bridge the gap between Boeing's 767 and 747, and to replace older DC-10s and L-1011s.
                             </p>
 
-                            <button className="h-12 px-2 my-4 ml-12 text-base font-semibold tracking-wider text-white w-44 border rounded-full shadow-sm hover:shadow-lg bg-secondary">Explore More</button>
+                            <Link to="boeing777Explore">
+                                <button className="h-12 px-2 my-4 ml-12 text-base font-semibold tracking-wider text-white w-44 border rounded-full shadow-sm hover:shadow-lg bg-secondary">Explore More</button>
+                            </Link>
 
                             <p className="self-center mt-2 mx-8 text-lg tracking-wide text-center text-white">To view the 3D model in AR, scan the QR code or click on the button below.</p>
 
                             <div className="grid justify-center grid-cols-1 gap-6 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
-                                <img className="flex p-6 text-6xl rounded-xl h-60 w-60" src="https://storage.echoar.xyz/wispy-violet-4999/90a2a92c-b69d-45d4-8935-9ea307faeb05" alt="Earth QR" />
-                                <a href="https://go.echoar.xyz/J8oi" target="_blank" rel="noreferrer">
+                                <img className="flex p-6 text-6xl rounded-xl h-60 w-60" src="https://storage.echoar.xyz/wispy-violet-4999/9a227ded-f32f-457a-bb7d-e5c55311022f" alt="Boeig 777 QR" />
+                                <a href="https://go.echoar.xyz/cie1" target="_blank" rel="noreferrer">
                                     <button className="h-12 px-8 ml-12 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">View in AR</button>
                                 </a>
                             </div>
