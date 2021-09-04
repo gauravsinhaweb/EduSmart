@@ -1,4 +1,4 @@
-# Space Origin
+# EduSmart
 
 ## Tagline
 Live Virtual Learning  /   Lets Make it Real   / What we see what we Learn / Visual speaks Louder
