@@ -1,6 +1,6 @@
-import PlantCell from "../components/3DModel/PlantCell";
-import AnimalCell from "../components/3DModel/AnimalCell";
-import Skeleton from "../components/3DModel/Skeleton";
+import PlantCell from "./3DModel/PlantCell";
+import AnimalCell from "./3DModel/AnimalCell";
+import Skeleton from "./3DModel/Skeleton";
 
 export default function Medical() {
   return (

@@ -10,7 +10,7 @@ function Classroom() {
           Classroom🎓
         </div>{" "}
         <div className="flex justify-around mt-16">
-          <Link to="mediaclPage">
+          <Link to="medical">
             <div className="h-64 w-80 bg-secondary rounded-2xl cursor-pointer 	active:bg-highlight 	">
               <div className="text-white text-2xl flex justify-center h-full items-center font-medium">
                 Medical

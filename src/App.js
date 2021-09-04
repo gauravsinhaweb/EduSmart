@@ -6,13 +6,14 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Chatroom from "./pages/Chatroom";
 import Classroom from "./pages/Classroom";
-import MediaclPage from "./pages/Medical";
+import Medical from "./components/Medical";
 import AnimalCellExplore from "./components/3DExplore/AnimalCellExplore";
 import Boeing777Explore from "./components/3DExplore/Boeing777Explore";
 import TurbofanExplore from "./components/3DExplore/TurbofanExplore";
-import AeroSpacePage from "./pages/AreoSpace";
+import AeroSpacePage from "./components/AreoSpace";
 import Contributors from "./pages/Contributors";
 import Home from "./pages/Home";
+import Login from "./pages/Login";
 // import Footer from './components/Footer';
 
 function App() {
@@ -30,11 +31,13 @@ function App() {
             // }}
           >
             <Navbar onHover={onHover} setOnHover={setOnHover} />
-            <Route path="/" exact component={About} />
+            <Route path="/" exact component={Login} />
+
+            <Route path="/about" exact component={About} />
             <Route path="/home" exact component={Home} />
             <Route path="/chat" exact component={Chatroom} />
             <Route path="/classroom" exact component={Classroom} />
-            <Route path="/mediaclPage" exact component={MediaclPage} />
+            <Route path="/medical" exact component={Medical} />
             <Route
               path="/animalCellExplore"
               exact
