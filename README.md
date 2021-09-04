@@ -1,8 +1,14 @@
 # Space Origin
 
 ## Tagline
-Live Virtual Learning
+Live Virtual Learning  /   Lets Make it Real   / What we see what we Learn / Visual speaks Louder
 # <img src="https://github.com/Slowgeek/Readme-trial/blob/main/3d.gif" width="200px" height="200px">
+
+## Problems It Solves
+In this pandemic situation E learning is the new trend . from past year students are stuck at their homes and attended numerous online classes.
+But  online classes are monotonous and concepts taught are not retained by our minds.
+Situation becomes worse when a subject is mostly based on practicals , because actual feel / visualisation is most important in such subjects like Aerospace, Biology and many more.
+With this application we focus to solve this problem. It utilizes the 3d/ virtual reality to give life/real life simulation or feel of various model and make the learning process more impactful and interesting.With a interactive live feature students can ask to teacher their doubt instantly and also can discuss among themselves.
 
 ## Live demo
 
