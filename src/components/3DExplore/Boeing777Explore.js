@@ -14,6 +14,8 @@ function Model(props) {
     const group = useRef()
     const { nodes, materials } = useGLTF('/boeing777/scene.gltf')
     const [hovered, set] = useState(null)
+  console.log(hovered);
+
     return (
         <group ref={group} {...props} dispose={null}
             onPointerOver={(e) => (e.stopPropagation(), set(e.object.material.name))}
