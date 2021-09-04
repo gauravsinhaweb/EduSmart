@@ -58,3 +58,16 @@ npm start
 ```
 
 ## 🖼️ Some glimps of the site
+Home page
+![home](https://user-images.githubusercontent.com/64153988/132110101-1ec0d574-76b9-4ed8-841a-443862f5d878.png)
+Medical Classroom
+![medical](https://user-images.githubusercontent.com/64153988/132110107-4425b106-566f-40e2-b458-fcec08a0aa97.png)
+Areospace Classroom
+![aerospace](https://user-images.githubusercontent.com/64153988/132110109-47cbc290-9e2b-4799-b021-8929dde4c6f7.png)
+AR in action
+![AR](https://user-images.githubusercontent.com/64153988/132110114-39cd748c-3f08-4c19-bc2b-6d595653d58a.png)
+Explore more
+![explore more](https://user-images.githubusercontent.com/64153988/132110115-55927862-d7a7-461a-91b2-0f3f67245f98.png)
+Chatroom
+![chatroom](https://user-images.githubusercontent.com/64153988/132110116-20ae04b6-9241-488c-bc9a-a61465a1a457.png)
+
