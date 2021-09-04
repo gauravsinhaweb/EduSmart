@@ -1,7 +1,7 @@
 # EduSmart
 
 ## Tagline
-Live Virtual Learning  /   Lets Make it Real   / What we see what we Learn / Visual speaks Louder
+Lets Make it Real   
 <!-- ![3d](https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif) -->
 # 
 <img src="https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif" width="250px" >
