@@ -31,7 +31,7 @@ const LoginPage = () => {
   }
   return (
     <>
-      <div className="h-screen flex items-center justify-center w-full ">
+      <div className="h-screen bg-primary flex items-center justify-center w-full ">
         <div>
           <div
             id="sawo-container"

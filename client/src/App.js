@@ -16,9 +16,10 @@ import Contributors from "./pages/Contributors";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ChatWindow from "./pages/ChatWindow";
+import Chat from "./pages/Chat";
 // import Footer from './components/Footer';
 const socket = io.connect("/");
-socket.on("connect", function () {
+socket.on("connect", function() {
   console.log(socket.id);
 });
 function App() {
@@ -28,19 +29,20 @@ function App() {
     <>
       <Router>
         <Switch>
-          {" "}
+          <Route path="/" exact component={Login} />{" "}
           <div
             className="font-serif select-none	bg-primary flex"
-          // onClick={() => {
-          //   setOnHover(!onHover);
-          // }}
+            // onClick={() => {
+            //   setOnHover(!onHover);
+            // }}
           >
             <Navbar onHover={onHover} setOnHover={setOnHover} />
-            <Route path="/" exact component={Login} />
             <Route path="/about" exact component={About} />
             <Route path="/home" exact component={Home} />
+            <Route path="/chat" exact component={Chat} />
+
             {/* <Route path="/chat" exact component={Chatroom} /> */}
-            <Route exact path="/chat">
+            <Route exact path="/chatroom">
               <Chatroom socket={socket} />
             </Route>
             <Route exact path="/chatwindow">
