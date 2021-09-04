@@ -17,13 +17,11 @@ function About() {
           </div>{" "}
           <div className="h-20 w-1/3 text-white text-2xl text-justify font-light capitalize leading-relaxed">
             <p className="">
-              Nostrud aute reprehenderit ad aliqua labore irure pariatur culpa
-              est aute qui nisi labore. Magna occaecat labore duis quis
-              cupidatat esse id aliqua anim aute pariatur proident. Ipsum tempor
-              amet proident non qui pariatur aliquip deserunt aliquip est. In
-              reprehenderit amet esse deserunt excepteur nostrud aute ea
-              deserunt ipsum aute incididunt enim id. Excepteur labore sunt sit
-              qui mollit cupidatat laboris.
+              In this pandemic situation E-learning is the new trend . from past
+              year students are stuck at their homes and attended numerous
+              online classes. But online classes are monotonous and concepts
+              taught are not retained by our minds. Situation becomes worse when
+              a subject is mostly based on practicals.
             </p>
           </div>
         </div>
@@ -37,11 +35,10 @@ function About() {
                   </div>
                 </div>
                 <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-                  Website Design
+                  Interactive 3D Models{" "}
                 </h3>
                 <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
-                  Encompassing today’s website design technology to integrated
-                  and build solutions relevant to your business.
+                  Pariatur nulla quis aute fugiat mollit commodo officia.
                 </p>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
@@ -51,11 +48,11 @@ function About() {
                   </div>
                 </div>
                 <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-                  Branding
+                  Learn with Augmented Reality{" "}
                 </h3>
                 <p class="text-md text-gray-500 dark:text-gray-300 py-4">
-                  Share relevant, engaging, and inspirational brand messages to
-                  create a connection with your audience.
+                  Voluptate dolore dolor consequat consectetur sint tempor sint
+                  eiusmod consequat aliqua sint.
                 </p>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
@@ -65,11 +62,11 @@ function About() {
                   </div>
                 </div>
                 <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-                  SEO Marketing
+                  Chat with teachers and friends.{" "}
                 </h3>
                 <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
-                  Let us help you level up your search engine game, explore our
-                  solutions for digital marketing for your business.
+                  Dolore aute dolore proident sint adipisicing proident minim
+                  magna laboris dolor pariatur in sunt.
                 </p>
               </div>
             </div>
