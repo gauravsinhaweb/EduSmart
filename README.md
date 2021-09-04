@@ -2,7 +2,10 @@
 
 ## Tagline
 Live Virtual Learning  /   Lets Make it Real   / What we see what we Learn / Visual speaks Louder
-# <img src="https://github.com/Slowgeek/Readme-trial/blob/main/3d.gif" width="200px" height="200px">
+<!-- ![3d](https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif) -->
+# 
+<img src="https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif" width="250px" >
+
 
 ## Problems It Solves
 In this pandemic situation E-learning is the new trend . from past year students are stuck at their homes and attended numerous online classes.
