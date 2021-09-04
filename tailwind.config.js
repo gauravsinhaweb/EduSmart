@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     backgroundColor: (theme) => ({
       ...theme("colors"),
-      primary: "#343837",
-      secondary: "#0F9B8E",
-      tertiary: "#03719C",
+      primary: "#1B2431",
+      secondary: "#016795",
+      tertiary: "#1E488F",
+      highlight: "#1E488F",
     }),
 
     // padding: {
@@ -20,9 +21,9 @@ module.exports = {
     colors: {
       // Configure your color palette here
 
-      primary: "#343837",
-      secondary: "#0F9B8E",
-      tertiary: "#03719C",
+      primary: "#1B2431",
+      secondary: "#016795",
+      tertiary: "#1E488F",
       white: "#ffffff",
     },
     fontFamily: {

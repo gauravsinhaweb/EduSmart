@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
-    "@react-three/drei": "^7.4.0",
+    "@react-three/drei": "^7.6.1",
     "@react-three/fiber": "^7.0.6",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

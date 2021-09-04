@@ -11,7 +11,7 @@ function Classroom() {
         </div>{" "}
         <div className="flex justify-around mt-16">
           <Link to="mediaclPage">
-            <div className="h-64 w-64 bg-secondary rounded-2xl cursor-pointer active:bg-green-700 select-none	">
+            <div className="h-64 w-80 bg-secondary rounded-2xl cursor-pointer 	active:bg-highlight 	">
               <div className="text-white text-2xl flex justify-center h-full items-center font-medium">
                 Medical
               </div>
@@ -19,14 +19,14 @@ function Classroom() {
           </Link>
 
           <Link to="aerospacePage">
-            <div className="h-64 w-64 bg-secondary rounded-2xl cursor-pointer active:bg-green-700 select-none">
+            <div className="h-64 w-80 bg-secondary rounded-2xl cursor-pointer 	active:bg-highlight ">
               <div className="text-white text-2xl flex justify-center h-full items-center font-medium">
                 Aerospace <br /> Engineering
               </div>
             </div>{" "}
           </Link>
         </div>
-        <div className="flex justify-around  mt-16 opacity-60">
+        <div className="flex justify-around  mt-16 opacity-90">
           <div></div>
           <div>
             {" "}
