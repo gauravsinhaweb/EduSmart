@@ -8,11 +8,7 @@ Live Virtual Learning  /   Lets Make it Real   / What we see what we Learn / Vis
 
 
 ## Problems It Solves
-In this pandemic situation E-learning is the new trend . from past year students are stuck at their homes and attended numerous online classes.
-But  online classes are monotonous and concepts taught are not retained by our minds.
-Situation becomes worse when a subject is mostly based on practicals , because actual feel / visualisation is most important in such subjects like Aerospace, Biology and many more.
-With this application we focus to solve this problem. It utilizes the 3d/ virtual reality to give life/real life simulation or feel of various model and make the learning process more impactful and interesting.With a interactive live feature students can ask to teacher their doubt instantly and also can discuss among themselves.
-
+In this pandemic, situation E-learning has proved a new and efficient method. For the past year, students are stuck in their homes and have attended numerous online classes. But online classes are monotonous and concepts taught are not retained by our minds. The situation becomes worse when a subject is mostly based on practicals because actually visualization is most important in such subjects as Aerospace, Biology, and many more. With this application, we focus to solve this problem. It utilizes 3D, Augmented reality to give, real-life simulations or feels of various models and make the learning process more impactful and interesting. With an interactive live feature, students can ask the teacher their doubts instantly and also can discuss among themselves.
 ## Live demo
 
 The site is deployed throught Vercel, which you can view from [here](https://edu-smart.vercel.app/)  
