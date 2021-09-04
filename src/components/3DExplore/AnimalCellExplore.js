@@ -126,7 +126,7 @@ function Details() {
     return (
       <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
         <h1 className="text-3xl uppercase">Nucleolus</h1>
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify mt-4">
           The nucleolus is a membrane-less organelle within the nucleus that
           manufactures ribosomes, the cell's protein-producing structures.
           Through the microscope, the nucleolus looks like a large dark spot
@@ -138,7 +138,7 @@ function Details() {
     return (
       <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
         <h1 className="text-3xl uppercase">Golgi Apparatus</h1>
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify mt-4">
           A Golgi body, also known as a Golgi apparatus, is a cell organelle
           that helps process and package proteins and lipid molecules,
           especially proteins destined to be exported from the cell.
@@ -149,7 +149,7 @@ function Details() {
     return (
       <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
         <h1 className="text-3xl uppercase">Lysosome</h1>
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify mt-4">
           A lysosome is a membrane-bound cell organelle that contains digestive
           enzymes. They break down excess or worn-out cell parts. They may be
           used to destroy invading viruses and bacteria.
@@ -160,7 +160,7 @@ function Details() {
     return (
       <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
         <h1 className="text-3xl uppercase">Endoplasmic Reticulum</h1>
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify mt-4">
           Endoplasmic Reticulum (ER), in biology, a continuous membrane system
           that forms a series of flattened sacs within the cytoplasm of
           eukaryotic cells and serves multiple functions, being important
@@ -173,7 +173,7 @@ function Details() {
     return (
       <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
         <h1 className="text-3xl uppercase">Cytoplasm</h1>
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify mt-4">
           The cytoplasm is the gel-like fluid inside the cell. It is the medium
           for chemical reaction. It provides a platform upon which other
           organelles can operate within the cell. All of the functions for cell
@@ -197,7 +197,7 @@ export default function AnimalCell() {
   return (
     <>
       <div className="md:grid md:grid-cols-3 md:pr-15 pr-1 w-full">
-        <div className="w-full h-screen px-4 pt-16 outline-none cursor-pointer md:col-span-2 lg:block">
+        <div className="w-full h-screen p-16 outline-none cursor-pointer md:col-span-2 lg:block">
           <div className="text-3xl text-white font-extralight ml-48 ">
             Animal Cell
           </div>

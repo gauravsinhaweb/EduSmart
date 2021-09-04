@@ -110,7 +110,7 @@ function Details() {
         return (
             <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
                 <h1 className="text-3xl uppercase">Fuselage</h1>
-                <p className="text-xl text-justify">The internal cabin width is increased from the previous 777 models' 231 to 235 in (587 to 597 cm) through thinner interior cabin walls and better insulation to allow 18.0 in (46 cm) wide seats in 10-abreast economy.</p>
+                <p className="text-xl text-justify mt-4">The internal cabin width is increased from the previous 777 models' 231 to 235 in (587 to 597 cm) through thinner interior cabin walls and better insulation to allow 18.0 in (46 cm) wide seats in 10-abreast economy.</p>
             </div>
         )
     }
@@ -118,7 +118,7 @@ function Details() {
         return (
             <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
                 <h1 className="text-3xl uppercase">Cockpit</h1>
-                <p className="text-xl text-justify">A cockpit or flight deck is the area, usually near the front of an aircraft or spacecraft, from which a pilot controls the aircraft.</p>
+                <p className="text-xl text-justify mt-4">A cockpit or flight deck is the area, usually near the front of an aircraft or spacecraft, from which a pilot controls the aircraft.</p>
             </div>
         )
     }
@@ -126,7 +126,7 @@ function Details() {
         return (
             <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
                 <h1 className="text-3xl uppercase">Rolls-Royce Trent 800 Engine</h1>
-                <p className="text-xl text-justify">The 777 Classics were powered by 77,200–98,000 lbf (343–436 kN) General Electric GE90, Pratt & Whitney PW4000, or Rolls-Royce Trent 800 engines.</p>
+                <p className="text-xl text-justify mt-4">The 777 Classics were powered by 77,200–98,000 lbf (343–436 kN) General Electric GE90, Pratt & Whitney PW4000, or Rolls-Royce Trent 800 engines.</p>
             </div>
         )
     }
@@ -134,7 +134,7 @@ function Details() {
         return (
             <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
                 <h1 className="text-3xl uppercase">Tail FIn</h1>
-                <p className="text-xl text-justify">A vertical stabilizer, vertical stabiliser, or fin, is a structure designed to reduce aerodynamic side slip and provide directional stability.</p>
+                <p className="text-xl text-justify mt-4">A vertical stabilizer, vertical stabiliser, or fin, is a structure designed to reduce aerodynamic side slip and provide directional stability.</p>
             </div>
         )
     }
@@ -142,7 +142,7 @@ function Details() {
         return (
             <div className="h-full md:flex md:flex-col md:justify-center font-fontVollkorn">
                 <h1 className="text-3xl uppercase">Wings</h1>
-                <p className="text-xl text-justify">The 777X has a new longer composite wing with folding wingtips.[68] Due to this, the 777x is the first aircraft to have 'Wingtip Controls' inside the cockpit.</p>
+                <p className="text-xl text-justify mt-4">The 777X has a new longer composite wing with folding wingtips.[68] Due to this, the 777x is the first aircraft to have 'Wingtip Controls' inside the cockpit.</p>
             </div>
         )
     }
@@ -160,7 +160,7 @@ export default function AnimalCell() {
         <>
             <div className="md:grid md:grid-cols-3 md:pr-15 pr-1 w-full">
 
-                <div className="w-full h-screen px-4 pt-16 outline-none cursor-pointer md:col-span-2 lg:block">
+                <div className="w-full h-screen p-16 outline-none cursor-pointer md:col-span-2 lg:block">
                     <div className="text-3xl text-white font-extralight ml-48 ">
                         Boeing 777
                     </div>

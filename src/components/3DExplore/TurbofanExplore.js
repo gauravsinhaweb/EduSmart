@@ -268,7 +268,7 @@ export default function AnimalCell() {
   return (
     <>
       <div className="md:grid md:grid-cols-3 md:pr-15 pr-1 w-full h-screen">
-        <div className="w-full h-screen p-12  outline-none cursor-pointer md:col-span-2 lg:block">
+        <div className="w-full h-screen p-12 outline-none cursor-pointer md:col-span-2 lg:block">
           <div className="text-3xl text-white font-extralight ml-48 ">
             Aircraft Engine
           </div>
