@@ -1,10 +1,10 @@
 # EduSmart
 
-###Tagline
-Lets Make it Real.
-
-
-<center><img src="https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif" width="250px" ></center>
+## Tagline
+Lets Make it Real   
+<!-- ![3d](https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif) -->
+# 
+<img src="https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif" width="250px" >
 
 
 ## Problems It Solves
@@ -58,22 +58,17 @@ npm start
 ```
 
 ## 🖼️ Some glimps of the site
-<br>
-####  Home page
+Home page
 ![home](https://user-images.githubusercontent.com/64153988/132110128-35b2c009-0877-4b1f-83fc-8e7c26d4f8eb.png)
-<br>
-#### Medical Classroom
+
+Medical Classroom
 ![medical](https://user-images.githubusercontent.com/64153988/132110107-4425b106-566f-40e2-b458-fcec08a0aa97.png)
-<br>
-####  Areospace Classroom
+Areospace Classroom
 ![aerospace](https://user-images.githubusercontent.com/64153988/132110109-47cbc290-9e2b-4799-b021-8929dde4c6f7.png)
-<br>
-####  AR in action
+AR in action
 ![AR](https://user-images.githubusercontent.com/64153988/132110114-39cd748c-3f08-4c19-bc2b-6d595653d58a.png)
-<br>
-#### Explore more
+Explore more
 ![explore more](https://user-images.githubusercontent.com/64153988/132110115-55927862-d7a7-461a-91b2-0f3f67245f98.png)
-<br>
-####  Chatroom
+Chatroom
 ![chatroom](https://user-images.githubusercontent.com/64153988/132110116-20ae04b6-9241-488c-bc9a-a61465a1a457.png)
 
