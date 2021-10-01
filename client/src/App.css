@@ -141,3 +141,7 @@
 .hide {
   opacity: 0 !important;
 }
+
+.icon-size {
+  font-size: 1.75rem;
+}
