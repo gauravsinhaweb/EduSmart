@@ -8,7 +8,7 @@ Lets Make it Real
 
 
 ## Problems It Solves
-In this pandemic, situation E-learning has proved a new and efficient method. For the past year, students are stuck in their homes and have attended numerous online classes. But online classes are monotonous and concepts taught are not retained by our minds. The situation becomes worse when a subject is mostly based on practicals because actually visualization is most important in such subjects as Aerospace, Biology, and many more. With this application, we focus to solve this problem. It utilizes 3D, Augmented reality to give, real-life simulations or feels of various models and make the learning process more impactful and interesting. With an interactive live feature, students can ask the teacher their doubts instantly and also can discuss among themselves.
+In this pandemic, E-learning has proved a new and efficient method. For the past year, students stuck in their homes have attended numerous online classes. But these online classes are monotonous and concepts taught are not retained in their minds. The situation becomes worse when the subjects are practically based. Because of this, the actual visualization is crucial in subjects such as Aerospace, Biology, and many more. With this application, we focus on solving this problem. It utilizes 3D, Augmented reality to give real-life simulations or feels of various models and make the learning process more impactful and fascinating. With an interactive live feature, students can ask the teacher their doubts instantly and also discuss.
 ## Live demo
 
 The site is deployed throught Vercel, which you can view from [here](https://edu-smart.vercel.app/)  
