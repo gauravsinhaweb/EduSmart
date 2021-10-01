@@ -18,6 +18,8 @@ io.on("connection", (socket) => {
 
   socket.on("join_room", (data) => {
     socket.join(data);
+    // store the received data to be used later. (example: on disconnect)
+    socket.user = data;
     console.log(`User with ID: ${socket.id} joined room: ${data}`);
   }); 
 
@@ -27,6 +29,8 @@ io.on("connection", (socket) => {
 
   socket.on("disconnect", () => {
     console.log("User Disconnected", socket.id);
+    // We can get the user data stored on socket object. (like username)
+    console.log(`${socket.user} has left the chatroom.`);
   });
 });
 
