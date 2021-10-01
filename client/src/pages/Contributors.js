@@ -73,7 +73,7 @@ function Contributors() {
               {" "}
               <div className="text-sm font-light  underline  ml-0">
                 <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
+                  href="https://github.com/Slowgeek"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -82,7 +82,7 @@ function Contributors() {
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
+                  href=""
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -92,34 +92,7 @@ function Contributors() {
             </div>
           </div>
         </div>
-        <div>
-          <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
-              Riya Gupta
-            </div>
-            <div className="flex flex-row justify-center gap-6">
-              {" "}
-              <div className="text-sm font-light  underline  ml-0">
-                <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
-              </div>
-              <div className="text-sm font-light   underline  ml-0">
-                <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
-              </div>
-            </div>
-          </div>
-        </div>
+   
         <div>
           <div className="text-white text-xl text-center">
             <div className="uppercase my-4 font-medium text-secondary">
