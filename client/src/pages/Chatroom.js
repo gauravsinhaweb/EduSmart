@@ -40,7 +40,7 @@ function Chatroom(props) {
     <>
       <div className="w-full ">
         {" "}
-        <div className="text-3xl text-white font-extralight ml-40 m mt-8">
+        <div className="text-3xl text-white font-extralight m mt-8 text-center">
           Chatroom{" "}
         </div>
         {!showChat ? (
