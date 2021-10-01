@@ -6,7 +6,7 @@ function Classroom() {
     <>
       <div className="w-full h-screen">
         {" "}
-        <div className="text-3xl text-white font-extralight ml-40 mt-8">
+        <div className="text-3xl text-white font-extralight mt-8 text-center">
           Classroom🎓
         </div>{" "}
         <div className="flex justify-around mt-16">

@@ -3,7 +3,7 @@ import React from "react";
 function Contributors() {
   return (
     <div className="w-full h-screen">
-      <div className="text-3xl text-white font-extralight ml-40 mt-8">
+      <div className="text-3xl text-white font-extralight mt-8 text-center">
         Contributors🤝
       </div>{" "}
       <div className="flex justify-between mx-80 my-40">
