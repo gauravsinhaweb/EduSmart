@@ -1,1 +1,21 @@
-{}
+{
+  "name": "edusmart",
+  "version": "1.0.0",
+  "description": "Lets Make it Real",
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon app --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
+}
