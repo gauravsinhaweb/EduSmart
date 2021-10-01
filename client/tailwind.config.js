@@ -34,6 +34,9 @@ module.exports = {
     backgroundColor: ["active"],
     width: ["responsive", "hover", "focus"],
     transitionProperty: ["responsive", "motion-safe", "motion-reduce"],
+    extend: {
+      opacity: ['disabled'],
+    }
   },
   plugins: [],
 };

@@ -5,7 +5,7 @@ import Chatroom from "./Chatroom";
 function Chat() {
   const [username, setUsername] = useState("");
   const history = useHistory();
-
+  console.log(username);
   return (
     <>
       <div className="w-full h-screen">
@@ -13,7 +13,7 @@ function Chat() {
           <div className="">
             <label
               className="block text-gray-700 text-sm font-medium mb-2 text-white"
-              for="username"
+              htmlFor="username"
             >
               Enter Your Name :
             </label>
@@ -32,10 +32,14 @@ function Chat() {
 
             <button
               onClick={() =>
-                history.push("Chatroom") + <Chatroom username={username} />
+                history.push({
+                  pathname: "/chatroom",
+                  state: { username: username },
+                })
               }
-              className="bg-tertiary hover:bg-tertiary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="disabled:opacity-50 bg-tertiary hover:bg-tertiary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="button"
+              disabled={username !== "" ? false : true}
             >
               Go!
             </button>

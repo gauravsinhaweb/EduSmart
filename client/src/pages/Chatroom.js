@@ -1,10 +1,14 @@
-import React, { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useHistory, useLocation } from "react-router-dom";
 import chatsvg from "../assets/chatroom.svg";
 import ChatWindow from "./ChatWindow";
 function Chatroom(props) {
-  const { socket, username, setUsername } = props;
-  // const [username, setUsername] = useState("");
+  const { socket } = props;
+  const location = useLocation();
+
+  console.log(socket);
+  const [username, setUsername] = useState("");
+  // if (location.state) setUsername(location.state.username);
   const [showChat, setShowChat] = useState(false);
 
   const [room, setRoom] = useState("");
@@ -29,9 +33,12 @@ function Chatroom(props) {
       // window.location.reload();
     }
   };
+  useEffect(() => {
+    if (location.state) setUsername(location.state.username);
+  }, [username]);
   return (
     <>
-      <div className="w-full h-screen">
+      <div className="w-full ">
         {" "}
         <div className="text-3xl text-white font-extralight ml-40 m mt-8">
           Chatroom{" "}

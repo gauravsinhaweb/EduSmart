@@ -39,14 +39,14 @@ function App() {
             <Navbar onHover={onHover} setOnHover={setOnHover} />
             <Route path="/about" exact component={About} />
             <Route path="/home" exact component={Home} />
-            <Route path="/chat" exact component={Chat} />
+            {/* <Route path="/chat" exact component={Chat} /> */}
 
             {/* <Route path="/chat" exact component={Chatroom} /> */}
             <Route exact path="/chatroom">
               <Chatroom socket={socket} />
             </Route>
-            <Route exact path="/chatwindow">
-              <ChatWindow socket={socket} />
+            <Route exact path="/chat">
+              <Chat socket={socket} />
             </Route>
             <Route path="/classroom" exact component={Classroom} />
             <Route path="/medical" exact component={Medical} />

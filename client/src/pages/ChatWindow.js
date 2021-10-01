@@ -3,7 +3,6 @@ import React, { useState, useEffect, useRef } from "react";
 const ChatWindow = ({ socket, username, room }) => {
   const [currentMessage, setCurrentMessage] = useState("");
   const [messageList, setMessageList] = useState([]);
-
   const sendMessage = async () => {
     if (currentMessage !== "") {
       const messageData = {
@@ -21,20 +20,19 @@ const ChatWindow = ({ socket, username, room }) => {
       setCurrentMessage("");
     }
   };
-
+console.log(messageList);
   useEffect(() => {
     socket.on("receive_message", (data) => {
       setMessageList((list) => [...list, data]);
     });
   }, [socket]);
 
-  //   const messagesListEndRef = useRef(null);
+  const messagesListEndRef = useRef(null);
 
-  //   const scrollToBottom = () => {
-  //     messagesListEndRef.current.scrollIntoView({ behavior: "smooth" });
-  //   };
-  //   useEffect(scrollToBottom, [messageList.message]);
-  console.log(username);
+  const scrollToBottom = () => {
+    messagesListEndRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+  useEffect(scrollToBottom, [messageList]);
   return (
     <>
       <div className="w-full h-screen">
@@ -43,8 +41,7 @@ const ChatWindow = ({ socket, username, room }) => {
             <div className="chat-header">
               <p>Live Chat</p>
             </div>
-            <div className="chat-body">
-              {/* <ScrollToBottom className="message-container"> */}
+            <div className="chat-body overflow-y-auto">
               {messageList.map((messageContent) => {
                 return (
                   <div
@@ -63,8 +60,7 @@ const ChatWindow = ({ socket, username, room }) => {
                   </div>
                 );
               })}
-
-              {/* </ScrollToBottom> */}
+              <div ref={messagesListEndRef} />
             </div>
             <div className="chat-footer">
               <input
