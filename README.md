@@ -78,4 +78,4 @@ Chatroom
   <img src="https://contrib.rocks/image?repo=gauravsinhaweb/EduSmart" />
 </a>
 
-### `#happy hacking`
+### `#happy hacking!`
