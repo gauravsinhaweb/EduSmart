@@ -72,3 +72,10 @@ Explore more
 Chatroom
 ![chatroom](https://user-images.githubusercontent.com/64153988/132110116-20ae04b6-9241-488c-bc9a-a61465a1a457.png)
 
+
+## Contributors
+<a href="https://github.com/gauravsinhaweb/EduSmart/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gauravsinhaweb/EduSmart" />
+</a>
+
+### `happy hacking`
