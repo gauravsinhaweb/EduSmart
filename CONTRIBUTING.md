@@ -1,8 +1,16 @@
+## Prerequisites:
+
+Required to install and run the software:
+
+- [npm](https://www.npmjs.com/get-npm)
+
+
 ## Installation Guideline:
  
  git clone this repo in your local storage by following [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
  
- open your terminal and follow the command 
+ From the project folder, run these commands in console (terminal) to install dependencies and run the app:
+ 
  1. `cd [folder_path]`
  2. `cd client`
  3. `npm install`
