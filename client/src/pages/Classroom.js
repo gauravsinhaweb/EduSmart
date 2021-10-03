@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import classroom from "../assets/classroom.svg";
+import { ClassRoomIcon } from "../assets/icons";
 export function Classroom() {
     return (
         <>
@@ -42,12 +42,7 @@ export function Classroom() {
                         </div>
                     </div>
                     <div className="opacity-60">
-                        <img
-                            src={classroom}
-                            alt="chatroom"
-                            height="281px"
-                            width="332.23px"
-                        />
+                        <ClassRoomIcon />
                     </div>
                 </div>
             </div>
