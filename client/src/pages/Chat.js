@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
-import Chatroom from "./Chatroom";
 
-function Chat() {
+export function Chat() {
   const [username, setUsername] = useState("");
   const history = useHistory();
   console.log(username);
@@ -50,4 +49,3 @@ function Chat() {
   );
 }
 
-export default Chat;

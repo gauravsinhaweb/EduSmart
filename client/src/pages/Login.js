@@ -7,7 +7,7 @@ const API_KEY = "8e8c51b6-3d13-4193-908a-86a877c789d8";
 // server = "bf9b6c3d-3a10-4c85-ad24-307404a438d1";
 // localhost = "c226814e-7ea0-48d0-909a-c05fd6ee58b7";
 
-const LoginPage = () => {
+export const LoginPage = () => {
   const [isUserLoggedIn, setUserLoggedIn] = useState(false);
   const [payload, setPayload] = useState({});
   const history = useHistory();
@@ -49,4 +49,3 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;

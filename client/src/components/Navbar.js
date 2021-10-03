@@ -6,7 +6,7 @@ import { RiTeamFill } from "react-icons/ri";
 import { SiGoogleclassroom } from "react-icons/si";
 import { useHistory } from "react-router";
 
-function Navbar(props) {
+export function Navbar(props) {
   const { onHover, setOnHover } = props;
   const history = useHistory();
   return (
@@ -116,4 +116,3 @@ function Navbar(props) {
   );
 }
 
-export default Navbar;

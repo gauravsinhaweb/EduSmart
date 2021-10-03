@@ -1,11 +1,11 @@
 import React from "react";
 
-function Contributors() {
+export function Contributors() {
   return (
     <div className="w-full h-screen">
       <div className="text-3xl text-white font-extralight mt-8 text-center">
         Contributors🤝
-      </div>{" "}
+      </div>
       <div className="grid grid-cols-4 gap-5 mx-80 my-40">
         <div>
           <div className="text-white text-xl text-center">
@@ -13,7 +13,7 @@ function Contributors() {
               Harshal Raikwar
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://www.linkedin.com/in/harshalraikwal/"
@@ -21,7 +21,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -30,7 +30,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ function Contributors() {
               Gaurav Sinha
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/gauravsinhaweb"
@@ -49,7 +49,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -58,7 +58,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ function Contributors() {
               Ritesh Kumar
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/Slowgeek"
@@ -78,7 +78,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -87,7 +87,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@ function Contributors() {
               Allen Xavier Arasan
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/xavierallem"
@@ -107,7 +107,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -116,7 +116,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ function Contributors() {
               Harshit Raj
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/rharshit82"
@@ -135,7 +135,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -144,7 +144,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@ function Contributors() {
               Adarsh Chakraborty
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/adarsh-chakraborty"
@@ -163,7 +163,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -172,7 +172,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@ function Contributors() {
               Adithya Pai B
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/adithyapaib"
@@ -191,7 +191,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -200,7 +200,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@ function Contributors() {
               Mihir Harshe
             </div>
             <div className="flex flex-row justify-center gap-6">
-              {" "}
+              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/mihirharshe"
@@ -219,7 +219,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-github icon-size'></i>
-                </a>{" "}
+                </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
@@ -228,7 +228,7 @@ function Contributors() {
                   target="_blank"
                 >
                   <i class='bx bxl-linkedin icon-size' ></i>
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -238,4 +238,3 @@ function Contributors() {
   );
 }
 
-export default Contributors;
