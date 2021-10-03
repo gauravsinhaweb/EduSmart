@@ -79,5 +79,3 @@ Chatroom
 <a href="https://github.com/gauravsinhaweb/EduSmart/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=gauravsinhaweb/EduSmart" />
 </a>
-
-### `#happy hacking!`
