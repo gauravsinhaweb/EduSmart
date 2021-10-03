@@ -4,8 +4,9 @@
  
  open your terminal and follow the command 
  1. `cd [folder_path]`
- 2. `npm install`
- 3. `npm start`
+ 2. `cd client`
+ 3. `npm install`
+ 4. `npm start`
  
  #### you can skip the first page (login) by adding '/home' in the URL (this is a temporary bug, we will fix it later).
  
