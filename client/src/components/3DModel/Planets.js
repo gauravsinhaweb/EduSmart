@@ -13,7 +13,7 @@ const Model = () => {
   );
 };
 
-export default function PlantCell() {
+export default function Planet() {
   return (
     <>
       <div className="py-8">
