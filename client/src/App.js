@@ -12,6 +12,7 @@ import AnimalCellExplore from "./components/3DExplore/AnimalCellExplore";
 import Boeing777Explore from "./components/3DExplore/Boeing777Explore";
 import TurbofanExplore from "./components/3DExplore/TurbofanExplore";
 import AeroSpacePage from "./components/AreoSpace";
+import Planets from "./components/Planets";
 import Contributors from "./pages/Contributors";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -63,6 +64,7 @@ function App() {
             <Route path="/turbofanExplore" exact component={TurbofanExplore} />
             <Route path="/aerospacePage" exact component={AeroSpacePage} />
             <Route path="/contributors" exact component={Contributors} />
+            <Route path="/Planets" exact component={Planets} />
 
             <Chatbot />
           </div>
