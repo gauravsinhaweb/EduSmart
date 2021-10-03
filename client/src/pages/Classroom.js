@@ -25,6 +25,14 @@ function Classroom() {
               </div>
             </div>{" "}
           </Link>
+
+          <Link to="planets">
+            <div className="h-64 w-80 bg-secondary rounded-2xl cursor-pointer 	active:bg-highlight ">
+              <div className="text-white text-2xl flex justify-center h-full items-center font-medium">
+                Our Planets
+              </div>
+            </div>{" "}
+          </Link>
         </div>
         <div className="flex justify-around  mt-16 opacity-90">
           <div>

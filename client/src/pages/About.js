@@ -37,7 +37,7 @@ function About() {
                 <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
                   Interactive 3D Models{" "}
                 </h3>
-                <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                <p class="text-md  text-gray-500 dark:text-gray-300 py-4 h-24">
                   Pariatur nulla quis aute fugiat mollit commodo officia.
                 </p>
               </div>
@@ -61,7 +61,7 @@ function About() {
                     <img src={feature} alt="feature" />
                   </div>
                 </div>
-                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4 h-24">
                   Chat with teachers and friends.{" "}
                 </h3>
                 <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
