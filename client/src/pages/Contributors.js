@@ -9,7 +9,7 @@ function Contributors() {
       <div className="grid grid-cols-4 gap-5 mx-80 my-40">
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Harshal Raikwar
             </div>
             <div className="flex flex-row justify-center gap-6">
@@ -37,7 +37,7 @@ function Contributors() {
         </div>
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Gaurav Sinha
             </div>
             <div className="flex flex-row justify-center gap-6">
@@ -66,7 +66,7 @@ function Contributors() {
 
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Ritesh Kumar
             </div>
             <div className="flex flex-row justify-center gap-6">
@@ -95,7 +95,7 @@ function Contributors() {
    
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Allen Xavier Arasan
             </div>
             <div className="flex flex-row justify-center gap-6">
@@ -123,7 +123,7 @@ function Contributors() {
         </div>
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Harshit Raj
             </div>
             <div className="flex flex-row justify-center gap-6">
@@ -151,7 +151,7 @@ function Contributors() {
         </div>
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Adarsh Chakraborty
             </div>
             <div className="flex flex-row justify-center gap-6">
@@ -179,7 +179,7 @@ function Contributors() {
         </div>
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Adithya Pai B
             </div>
             <div className="flex flex-row justify-center gap-6">
@@ -207,7 +207,7 @@ function Contributors() {
         </div>
         <div>
           <div className="text-white text-xl text-center">
-            <div className="uppercase my-4 font-medium text-secondary">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Mihir Harshe
             </div>
             <div className="flex flex-row justify-center gap-6">
