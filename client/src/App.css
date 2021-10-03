@@ -65,6 +65,9 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
+.name-folder{
+  height: 50px;
+}
 
 #you {
   justify-content: flex-start;
