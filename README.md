@@ -47,17 +47,7 @@ Checkout the complete demo video from [here](https://youtu.be/WpuTS0YcoEQ)
 - 3D Models: [sketchfab.com](https://sketchfab.com)
 
 ## 🖼️ Some glimps of the site:
-Login page
-![asasas](https://user-images.githubusercontent.com/75125943/135742470-ba3ed04d-b259-4f60-bc66-60d93a83eeef.PNG)
-Home page
-![home](https://user-images.githubusercontent.com/64153988/132110128-35b2c009-0877-4b1f-83fc-8e7c26d4f8eb.png)
-Medical Classroom
-![medical](https://user-images.githubusercontent.com/64153988/132110107-4425b106-566f-40e2-b458-fcec08a0aa97.png)
-Areospace Classroom
-![aerospace](https://user-images.githubusercontent.com/64153988/132110109-47cbc290-9e2b-4799-b021-8929dde4c6f7.png)
-AR in action
-![AR](https://user-images.githubusercontent.com/64153988/132110114-39cd748c-3f08-4c19-bc2b-6d595653d58a.png)
-Explore more
-![explore more](https://user-images.githubusercontent.com/64153988/132110115-55927862-d7a7-461a-91b2-0f3f67245f98.png)
-Chatroom
-![chatroom](https://user-images.githubusercontent.com/64153988/132110116-20ae04b6-9241-488c-bc9a-a61465a1a457.png)
+![1](https://user-images.githubusercontent.com/75125943/135756188-d82bc259-4c02-4c18-b6bf-11189b980bed.PNG)
+
+
+![2](https://user-images.githubusercontent.com/75125943/135756196-751706c2-26d8-44b4-b937-725bb92c0ad4.PNG)
