@@ -1,4 +1,6 @@
 import Planet from "./3DModel/Planets";
+import Planetmars from "./3DModel/PlanetMars";
+import PlanetJupiter from "./3DModel/PlanetJupiter";
 
 export default function Planets() {
   return (
@@ -7,6 +9,8 @@ export default function Planets() {
         Planets
       </div>
       <Planet />
+      <Planetmars />
+      <PlanetJupiter />
       
     </div>
   );
