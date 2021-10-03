@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
-import chatsvg from "../assets/chatroom.svg";
+import { ChatRoomIcon } from "../assets/icons";
 import { ChatWindow } from "./";
 
 export function Chatroom(props) {
@@ -77,12 +77,7 @@ export function Chatroom(props) {
                 )}
                 <div className="flex justify-around  mt-16 opacity-90">
                     <div></div>
-                    <div>
-                        {" "}
-                        {!showChat ? (
-                            <img src={chatsvg} alt="chatroom" />
-                        ) : null}
-                    </div>
+                    <div> {!showChat ? <ChatRoomIcon /> : null}</div>
                 </div>
             </div>
         </>
