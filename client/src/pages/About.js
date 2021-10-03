@@ -2,7 +2,7 @@ import React from "react";
 import about from "../assets/about.svg";
 import feature from "../assets/feature.png";
 
-function About() {
+export function About() {
   return (
     <>
       <div className="w-full h-full">
@@ -77,4 +77,3 @@ function About() {
   );
 }
 
-export default About;
