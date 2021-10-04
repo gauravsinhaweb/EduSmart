@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
+.chatroom {
+  margin-bottom: 10px;
+}
+
 .chat-window {
-  width: 100%;
-  height: 100%;
+  padding: 20px;
 }
 
 .chat-window p {
@@ -26,7 +30,7 @@
 }
 
 .chat-window .chat-body {
-  height: calc(450px - (45px + 70px));
+  height: calc(100vh - (200px));
   border: 1px solid #263238;
   background: #fff;
 
@@ -52,7 +56,7 @@
   width: auto;
   height: auto;
   min-height: 40px;
-  max-width: 120px;
+  max-width: 500px;
   background-color: #43a047;
   border-radius: 5px;
   color: white;

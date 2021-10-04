@@ -20,7 +20,7 @@ export const ChatWindow = ({ socket, username, room }) => {
       setCurrentMessage("");
     }
   };
-console.log(messageList);
+  console.log(messageList);
   useEffect(() => {
     socket.on("receive_message", (data) => {
       setMessageList((list) => [...list, data]);
@@ -34,52 +34,46 @@ console.log(messageList);
   };
   useEffect(scrollToBottom, [messageList]);
   return (
-    <>
-      <div className="w-full h-screen">
-        <div className="h-screen flex items-center justify-center w-full">
-          <div className="chat-window">
-            <div className="chat-header">
-              <p>Live Chat</p>
-            </div>
-            <div className="chat-body overflow-y-auto">
-              {messageList.map((messageContent) => {
-                return (
-                  <div
-                    className="message"
-                    id={username === messageContent.author ? "you" : "other"}
-                  >
-                    <div>
-                      <div className="message-content">
-                        <p>{messageContent.message}</p>
-                      </div>
-                      <div className="message-meta">
-                        <p id="time">{messageContent.time}</p>
-                        <p id="author">{messageContent.author}</p>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-              <div ref={messagesListEndRef} />
-            </div>
-            <div className="chat-footer">
-              <input
-                type="text"
-                value={currentMessage}
-                placeholder="Hey..."
-                onChange={(event) => {
-                  setCurrentMessage(event.target.value);
-                }}
-                onKeyPress={(event) => {
-                  event.key === "Enter" && sendMessage();
-                }}
-              />
-              <button onClick={sendMessage}>&#9658;</button>
-            </div>
-          </div>
-        </div>
+    <div className="chat-window">
+      <div className="chat-header">
+        <p>Live Chat</p>
       </div>
-    </>
+      <div className="chat-body overflow-y-auto">
+        {messageList.map((messageContent) => {
+          return (
+            <div
+              className="message"
+              id={username === messageContent.author ? "you" : "other"}
+            >
+              <div>
+                <div className="message-content">
+                  <p>{messageContent.message}</p>
+                </div>
+                <div className="message-meta">
+                  <p id="time">{messageContent.time}</p>
+                  <p id="author">{messageContent.author}</p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+        <div ref={messagesListEndRef} />
+      </div>
+      <div className="chat-footer">
+        <input
+          type="text"
+          value={currentMessage}
+          placeholder="Hey..."
+          onChange={(event) => {
+            setCurrentMessage(event.target.value);
+          }}
+          onKeyPress={(event) => {
+            event.key === "Enter" && sendMessage();
+          }}
+        />
+        <button onClick={sendMessage}>&#9658;</button>
+      </div>
+    </div>
   );
 };
 

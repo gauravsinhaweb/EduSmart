@@ -24,4 +24,6 @@ A. you can skip the first page (login) by adding '/home' in the URL (this is a t
 ## Note:
 - you must be working in an issue or if not then create one in https://github.com/gauravsinhaweb/EduSmart/issues then PR.
  
+ ## Installation Video:
+ Youtube: https://youtu.be/gp4s_q2tlr8
  #### `#happy hacking!`
