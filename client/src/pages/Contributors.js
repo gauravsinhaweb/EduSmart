@@ -82,7 +82,7 @@ export function Contributors() {
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a
-                  href=""
+                  href="https://www.linkedin.com/in/ritesh-kumar-300a221b7/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
