@@ -69,6 +69,9 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
+.name-folder{
+  height: 50px;
+}
 
 #you {
   justify-content: flex-start;
@@ -144,4 +147,8 @@
 }
 .hide {
   opacity: 0 !important;
+}
+
+.icon-size {
+  font-size: 1.75rem;
 }

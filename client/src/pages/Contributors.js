@@ -1,121 +1,234 @@
 import React from "react";
 
-function Contributors() {
+export function Contributors() {
   return (
     <div className="w-full h-screen">
-      <div className="text-3xl text-white font-extralight ml-40 mt-8">
+      <div className="text-3xl text-white font-extralight mt-8 text-center">
         Contributors🤝
-      </div>{" "}
-      <div className="flex flex-col mx-80 my-40">
+      </div>
+      <div className="grid grid-cols-4 gap-5 mx-80 my-40">
         <div>
-          <div className="text-white text-xl">
-            <div className="uppercase my-4 font-medium text-secondary">
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Harshal Raikwar
             </div>
-            <div className="flex flex-row ">
-              {" "}
-              <div className="text-sm font-light m-4 underline  ml-0">
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://www.linkedin.com/in/harshalraikwal/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  GitHub
-                </a>{" "}
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
               </div>
-              <div className="text-sm font-light  m-4 underline  ml-0">
+              <div className="text-sm font-light   underline  ml-0">
                 <a
                   href="https://www.linkedin.com/in/harshalraikwal/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  LinkedIn
-                </a>{" "}
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <div className="text-white text-xl">
-            <div className="uppercase my-4 font-medium text-secondary">
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Gaurav Sinha
             </div>
-            <div className="flex flex-row ">
-              {" "}
-              <div className="text-sm font-light m-4 underline  ml-0">
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/gauravsinhaweb"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  GitHub
-                </a>{" "}
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
               </div>
-              <div className="text-sm font-light  m-4 underline  ml-0">
+              <div className="text-sm font-light   underline  ml-0">
                 <a
                   href="https://www.linkedin.com/in/gaurav-sinha-032386187/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  LinkedIn
-                </a>{" "}
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
 
         <div>
-          <div className="text-white text-xl">
-            <div className="uppercase my-4 font-medium text-secondary">
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
               Ritesh Kumar
             </div>
-            <div className="flex flex-row ">
-              {" "}
-              <div className="text-sm font-light m-4 underline  ml-0">
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
                 <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
+                  href="https://github.com/Slowgeek"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  GitHub
-                </a>{" "}
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
               </div>
-              <div className="text-sm font-light  m-4 underline  ml-0">
+              <div className="text-sm font-light   underline  ml-0">
                 <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
+                  href=""
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  LinkedIn
-                </a>{" "}
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+        <div>
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
+              Allen Xavier Arasan
+            </div>
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
+                <a
+                  href="https://github.com/xavierallem"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
+              </div>
+              <div className="text-sm font-light   underline  ml-0">
+                <a
+                  href="#"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <div className="text-white text-xl">
-            <div className="uppercase my-4 font-medium text-secondary">
-              Riya Gupta
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
+              Harshit Raj
             </div>
-            <div className="flex flex-row ">
-              {" "}
-              <div className="text-sm font-light m-4 underline  ml-0">
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
                 <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
+                  href="https://github.com/rharshit82"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  GitHub
-                </a>{" "}
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
               </div>
-              <div className="text-sm font-light  m-4 underline  ml-0">
+              <div className="text-sm font-light   underline  ml-0">
                 <a
-                  href="https://www.linkedin.com/in/harshalraikwal/"
+                  href="#"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  LinkedIn
-                </a>{" "}
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
+              Adarsh Chakraborty
+            </div>
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
+                <a
+                  href="https://github.com/adarsh-chakraborty"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
+              </div>
+              <div className="text-sm font-light   underline  ml-0">
+                <a
+                  href="https://linkedin.com/in/adarsh-chakraborty"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
+              Adithya Pai B
+            </div>
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
+                <a
+                  href="https://github.com/adithyapaib"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
+              </div>
+              <div className="text-sm font-light   underline  ml-0">
+                <a
+                  href="https://www.linkedin.com/in/adithyapaib"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="text-white text-xl text-center">
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
+              Mihir Harshe
+            </div>
+            <div className="flex flex-row justify-center gap-6">
+              
+              <div className="text-sm font-light  underline  ml-0">
+                <a
+                  href="https://github.com/mihirharshe"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-github icon-size'></i>
+                </a>
+              </div>
+              <div className="text-sm font-light   underline  ml-0">
+                <a
+                  href="https://www.linkedin.com/in/mihirharshe"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class='bx bxl-linkedin icon-size' ></i>
+                </a>
               </div>
             </div>
           </div>
@@ -125,4 +238,3 @@ function Contributors() {
   );
 }
 
-export default Contributors;

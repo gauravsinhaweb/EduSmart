@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const ChatWindow = ({ socket, username, room }) => {
+export const ChatWindow = ({ socket, username, room }) => {
   const [currentMessage, setCurrentMessage] = useState("");
   const [messageList, setMessageList] = useState([]);
   const sendMessage = async () => {
@@ -77,4 +77,3 @@ const ChatWindow = ({ socket, username, room }) => {
   );
 };
 
-export default ChatWindow;

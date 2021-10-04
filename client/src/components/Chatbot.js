@@ -114,7 +114,7 @@ const steps = [
     },
 ];
 
-function Chatbot() {
+export function Chatbot() {
     const [opened, setOpened] = useState(false);
     const [key, setKey] = useState(Math.random());
     const history = useHistory();
@@ -165,4 +165,3 @@ function Chatbot() {
     );
 }
 
-export default Chatbot;
