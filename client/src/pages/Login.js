@@ -34,6 +34,7 @@ export const LoginPage = () => {
             <div className="h-screen bg-primary flex items-center justify-center w-full ">
                 <div>
                     <div
+                    className="lg:h-56"
                         id="sawo-container"
                         style={{ height: "25vh", width: "25rem" }}
                     ></div>
