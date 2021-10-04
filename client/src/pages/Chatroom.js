@@ -40,7 +40,7 @@ export function Chatroom(props) {
   }, [username]);
   return (
     <>
-      <div className="w-full ">
+      <div className="w-full chatroom">
         <div className="text-3xl text-white font-extralight m mt-8 text-center">
           Chatroom
         </div>
@@ -66,10 +66,10 @@ export function Chatroom(props) {
         ) : (
           <ChatWindow socket={socket} username={username} room={room} />
         )}
-        <div className="flex justify-around  mt-16 opacity-90">
+        {/* <div className="flex justify-around  mt-16 opacity-90">
           <div></div>
           <div> {!showChat ? <ChatRoomIcon /> : null}</div>
-        </div>
+        </div> */}
       </div>
     </>
   );
