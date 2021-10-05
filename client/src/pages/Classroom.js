@@ -6,7 +6,7 @@ import ClassRoomImg from "../assets/icons/classroom.svg";
 export function Classroom() {
   return (
     <>
-      <div className="w-full h-screen">
+      <div className="w-full mb-4">
         <div className="text-3xl text-white font-extralight mt-8 text-center">
           Classroom🎓
         </div>
