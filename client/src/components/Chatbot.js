@@ -12,14 +12,14 @@ const theme = {
   botBubbleColor: "#03719C",
   botFontColor: "#fff",
   userBubbleColor: "#03719C",
-  userFontColor: "#fff",
+  userFontColor: "#fff"
 };
 
 const steps = [
   {
     id: "1",
     message: "Hey! I am Study bot, how are you feeling today",
-    trigger: "expressions",
+    trigger: "expressions"
   },
   {
     id: "expressions",
@@ -28,54 +28,54 @@ const steps = [
       { value: "happy", label: "🙂", trigger: "happy" },
       { value: "normal", label: "😐", trigger: "normal" },
       { value: "sad", label: "☹️", trigger: "sad" },
-      { value: "angry", label: "😡", trigger: "angry" },
-    ],
+      { value: "angry", label: "😡", trigger: "angry" }
+    ]
   },
   {
     id: "veryHappy",
     message: "Great Me too 😍",
-    trigger: "help",
+    trigger: "help"
   },
   {
     id: "happy",
     message:
       "Hmm, Looks Like You are in good mood. Well I can make it great 😊",
-    trigger: "help",
+    trigger: "help"
   },
   {
     id: "normal",
     message:
       "Ooh, Are You Confused Sir ? Don't Worry I am here to Assist You 👻",
-    trigger: "help",
+    trigger: "help"
   },
   {
     id: "sad",
     message:
       "I am sorry to here that 😟 . Well i would suggest to play with our AR models. You will feel better.🙂",
-    trigger: "help",
+    trigger: "help"
   },
   {
     id: "angry",
     message:
       "😐 Oops, Did i do something wrong....But wait i am a bot i can't do that..🤥.  Well i suggest you to relax your mind, play some games,  watch some movies  and eat a lot of healthy tasty food just like me..😝",
-    trigger: "help",
+    trigger: "help"
   },
   {
     id: "help",
     message: "How can I help you?",
-    trigger: "options",
+    trigger: "options"
   },
   {
     id: "options",
     options: [
       { value: "services", label: "Services", trigger: "services" },
-      { value: "exit", label: "Exit", trigger: "end" },
-    ],
+      { value: "exit", label: "Exit", trigger: "end" }
+    ]
   },
   {
     id: "services",
     message: "select one of these services",
-    trigger: "selectServices",
+    trigger: "selectServices"
   },
   {
     id: "selectServices",
@@ -84,38 +84,38 @@ const steps = [
       {
         value: "Aerospace Class",
         label: "Aerospace Class",
-        trigger: "selectedService",
+        trigger: "selectedService"
       },
       {
         value: "Bio Class",
         label: "Bio Class",
-        trigger: "selectedService",
+        trigger: "selectedService"
       },
-      { value: "goBack", label: "go back", trigger: "options" },
-    ],
+      { value: "goBack", label: "go back", trigger: "options" }
+    ]
   },
   {
     id: "selectedService",
     message: "opened {previousValue}",
-    trigger: "end",
+    trigger: "end"
   },
   {
     id: "moreHelp",
     message: "do you meed more help?",
-    trigger: "moreHelp-yes",
+    trigger: "moreHelp-yes"
   },
   {
     id: "moreHelp-yes",
     options: [
       { value: "yes", label: "Yes", trigger: "help" },
-      { value: "no", label: "No", trigger: "end" },
-    ],
+      { value: "no", label: "No", trigger: "end" }
+    ]
   },
   {
     id: "end",
     message: "Thank you, see you again!",
-    end: true,
-  },
+    end: true
+  }
 ];
 
 export function Chatbot() {
@@ -168,7 +168,7 @@ export function Chatbot() {
           floatingStyle={{
             backgroundColor: "#ffffff",
             width: "60px",
-            boxShadow: "2px 2px 20px -8px #111",
+            boxShadow: "2px 2px 20px -8px #111"
           }}
         />
       </ThemeProvider>
