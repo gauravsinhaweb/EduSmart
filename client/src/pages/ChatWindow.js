@@ -36,7 +36,7 @@ export const ChatWindow = ({ socket, username, room }) => {
   return (
     <div className="chat-window">
       <div className="chat-header">
-        <p>Live Chat</p>
+        <p>Live Chat 🟢</p>
       </div>
       <div className="chat-body overflow-y-auto">
         {messageList.map((messageContent) => {
