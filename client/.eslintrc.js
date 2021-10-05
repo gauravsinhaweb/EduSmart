@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   env: {
-    browser: false,
+    browser: true,
     amd: true,
     node: true
   },
@@ -28,9 +28,11 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "off",
     "react/no-unescaped-entities": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-key": "warn",
     "react/prop-types": "warn",
     "jsx-a11y/click-events-have-key-events": "warn",
     "jsx-a11y/no-static-element-interactions": "warn",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/accessible-emoji": "warn"
   }
 };

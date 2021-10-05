@@ -8,7 +8,12 @@ export function About() {
       <div className="w-full h-full">
         <div className="text-3xl text-white font-extralight text-center py-10">
           About
-          <span className="text-5xl pl-4 font-light">EduSmart🎓</span>
+          <span
+            className="text-5xl pl-4 font-light"
+            role="img"
+            arial-label="EduSmart hat">
+            EduSmart🎓
+          </span>
         </div>
         <div className="flex justify-around lg:flex-row flex-col my-16 opacity-90">
           <div className="xl:flex-none flex-1 px-10 lg:pl-20 my-auto mx-auto">
