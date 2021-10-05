@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import {
   AnimalCellExplore,
   Boeing777Explore,
-  TurbofanExplore,
+  TurbofanExplore
 } from "./components/3DExplore";
 import { AreoSpace, Chatbot, Navbar, Medical, Planets } from "./components";
 import {
@@ -15,7 +15,7 @@ import {
   About,
   Chatroom,
   Classroom,
-  LoginPage,
+  LoginPage
 } from "./pages";
 // import Footer from './components/Footer';
 const socket = io.connect("/");

@@ -32,7 +32,7 @@ export function Chat() {
               onClick={() =>
                 history.push({
                   pathname: "/chatroom",
-                  state: { username: username },
+                  state: { username: username }
                 })
               }
               className="disabled:opacity-50 bg-tertiary hover:bg-tertiary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"

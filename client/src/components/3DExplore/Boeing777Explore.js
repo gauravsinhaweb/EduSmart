@@ -4,13 +4,13 @@ import {
   ContactShadows,
   Environment,
   useGLTF,
-  OrbitControls,
+  OrbitControls
 } from "@react-three/drei";
 import { proxy, useSnapshot } from "valtio";
 
 const state = proxy({
   current: null,
-  items: {},
+  items: {}
 });
 
 function Model(props) {

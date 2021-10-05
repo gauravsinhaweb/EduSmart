@@ -20,7 +20,7 @@ export const LoginPage = () => {
         console.log("Payload : " + JSON.stringify(payload));
         setUserLoggedIn(true);
         setPayload(payload);
-      },
+      }
     };
     let sawo = new Sawo(config);
     sawo.showForm();

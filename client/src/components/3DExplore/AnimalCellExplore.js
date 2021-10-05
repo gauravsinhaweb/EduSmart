@@ -4,19 +4,19 @@ import {
   ContactShadows,
   Environment,
   useGLTF,
-  OrbitControls,
+  OrbitControls
 } from "@react-three/drei";
 import { proxy, useSnapshot } from "valtio";
 
 const state = proxy({
   current: null,
-  items: {},
+  items: {}
 });
 
 function Model(props) {
   const group = useRef();
   const { nodes, materials } = useGLTF(
-    "/animal_cell_-_downloadable/scene.gltf",
+    "/animal_cell_-_downloadable/scene.gltf"
   );
   const [hovered, set] = useState(null);
 
