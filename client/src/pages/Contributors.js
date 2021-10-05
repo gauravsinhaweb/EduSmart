@@ -1,26 +1,23 @@
-import React from "react";
+import React from 'react';
 
 export function Contributors() {
   return (
-    <div className="w-full h-screen">
-      <div className="text-3xl text-white font-extralight mt-8 text-center">
-        Contributors🤝
-      </div>
-      <div className="grid grid-cols-4 gap-5 mx-80 my-40">
+    <div className="w-full">
+      <div className="text-3xl text-white font-extralight mt-8 text-center">Contributors🤝</div>
+      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10 mx-20 my-40">
         <div>
           <div className="text-white text-xl text-center">
             <div className="name-folder uppercase my-4 font-medium text-secondary">
               Harshal Raikwar
             </div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://www.linkedin.com/in/harshalraikwal/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-github icon-size'></i>
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -29,7 +26,7 @@ export function Contributors() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -41,14 +38,13 @@ export function Contributors() {
               Gaurav Sinha
             </div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/gauravsinhaweb"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-github icon-size'></i>
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -57,7 +53,7 @@ export function Contributors() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -70,14 +66,9 @@ export function Contributors() {
               Ritesh Kumar
             </div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
-                <a
-                  href="https://github.com/Slowgeek"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-github icon-size'></i>
+                <a href="https://github.com/Slowgeek" rel="noopener noreferrer" target="_blank">
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -86,36 +77,27 @@ export function Contributors() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
           </div>
         </div>
-   
+
         <div>
           <div className="text-white text-xl text-center">
             <div className="name-folder uppercase my-4 font-medium text-secondary">
               Allen Xavier Arasan
             </div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
-                <a
-                  href="https://github.com/xavierallem"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-github icon-size'></i>
+                <a href="https://github.com/xavierallem" rel="noopener noreferrer" target="_blank">
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
-                <a
-                  href="#"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                <a href="#" rel="noopener noreferrer" target="_blank">
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -123,27 +105,16 @@ export function Contributors() {
         </div>
         <div>
           <div className="text-white text-xl text-center">
-            <div className="name-folder uppercase my-4 font-medium text-secondary">
-              Harshit Raj
-            </div>
+            <div className="name-folder uppercase my-4 font-medium text-secondary">Harshit Raj</div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
-                <a
-                  href="https://github.com/rharshit82"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-github icon-size'></i>
+                <a href="https://github.com/rharshit82" rel="noopener noreferrer" target="_blank">
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
-                <a
-                  href="#"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                <a href="#" rel="noopener noreferrer" target="_blank">
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -155,14 +126,13 @@ export function Contributors() {
               Adarsh Chakraborty
             </div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
                 <a
                   href="https://github.com/adarsh-chakraborty"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-github icon-size'></i>
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -171,7 +141,7 @@ export function Contributors() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -183,14 +153,9 @@ export function Contributors() {
               Adithya Pai B
             </div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
-                <a
-                  href="https://github.com/adithyapaib"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-github icon-size'></i>
+                <a href="https://github.com/adithyapaib" rel="noopener noreferrer" target="_blank">
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -199,7 +164,7 @@ export function Contributors() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -211,14 +176,9 @@ export function Contributors() {
               Mihir Harshe
             </div>
             <div className="flex flex-row justify-center gap-6">
-              
               <div className="text-sm font-light  underline  ml-0">
-                <a
-                  href="https://github.com/mihirharshe"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class='bx bxl-github icon-size'></i>
+                <a href="https://github.com/mihirharshe" rel="noopener noreferrer" target="_blank">
+                  <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -227,7 +187,7 @@ export function Contributors() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class='bx bxl-linkedin icon-size' ></i>
+                  <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -237,4 +197,3 @@ export function Contributors() {
     </div>
   );
 }
-
