@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   env: {
-    browser: true,
+    browser: false,
     amd: true,
     node: true
   },
@@ -26,6 +26,11 @@ module.exports = {
   rules: {
     "prettier/prettier": ["error", {}, { usePrettierrc: true }],
     "react/react-in-jsx-scope": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "warn",
+    "jsx-a11y/click-events-have-key-events": "warn",
+    "jsx-a11y/no-static-element-interactions": "warn",
+    "jsx-a11y/anchor-is-valid": "off"
   }
 };
