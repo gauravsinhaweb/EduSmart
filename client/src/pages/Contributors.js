@@ -18,7 +18,7 @@ export function Contributors() {
                   href="https://www.linkedin.com/in/harshalraikwal/"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -26,7 +26,7 @@ export function Contributors() {
                   href="https://www.linkedin.com/in/harshalraikwal/"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -43,7 +43,7 @@ export function Contributors() {
                   href="https://github.com/gauravsinhaweb"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -51,7 +51,7 @@ export function Contributors() {
                   href="https://www.linkedin.com/in/gaurav-sinha-032386187/"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -69,7 +69,7 @@ export function Contributors() {
                   href="https://github.com/Slowgeek"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -77,7 +77,7 @@ export function Contributors() {
                   href="https://www.linkedin.com/in/ritesh-kumar-300a221b7/"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -95,12 +95,12 @@ export function Contributors() {
                   href="https://github.com/xavierallem"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a href="#" rel="noopener noreferrer" target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -117,12 +117,12 @@ export function Contributors() {
                   href="https://github.com/rharshit82"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
                 <a href="#" rel="noopener noreferrer" target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -139,7 +139,7 @@ export function Contributors() {
                   href="https://github.com/adarsh-chakraborty"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -147,7 +147,7 @@ export function Contributors() {
                   href="https://linkedin.com/in/adarsh-chakraborty"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -164,7 +164,7 @@ export function Contributors() {
                   href="https://github.com/adithyapaib"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -172,7 +172,7 @@ export function Contributors() {
                   href="https://www.linkedin.com/in/adithyapaib"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>
@@ -189,7 +189,7 @@ export function Contributors() {
                   href="https://github.com/mihirharshe"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-github icon-size"></i>
+                  <i className="bx bxl-github icon-size"></i>
                 </a>
               </div>
               <div className="text-sm font-light   underline  ml-0">
@@ -197,7 +197,7 @@ export function Contributors() {
                   href="https://www.linkedin.com/in/mihirharshe"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <i class="bx bxl-linkedin icon-size"></i>
+                  <i className="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
             </div>

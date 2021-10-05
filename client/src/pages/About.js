@@ -26,44 +26,44 @@ export function About() {
         </div>
         <div className="mb-20">
           <div>
-            <div class="sm:flex flex-wrap justify-center items-center text-center gap-8 mx-5">
-              <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
-                <div class="flex-shrink-0">
-                  <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+            <div className="sm:flex flex-wrap justify-center items-center text-center gap-8 mx-5">
+              <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <img src={feature} alt="feature" />
                   </div>
                 </div>
-                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
                   Interactive 3D Models
                 </h3>
-                <p class="text-md  text-gray-500 dark:text-gray-300 py-4 h-24">
+                <p className="text-md  text-gray-500 dark:text-gray-300 py-4 h-24">
                   Pariatur nulla quis aute fugiat mollit commodo officia.
                 </p>
               </div>
-              <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
-                <div class="flex-shrink-0">
-                  <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <img src={feature} alt="feature" />
                   </div>
                 </div>
-                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
                   Learn with Augmented Reality
                 </h3>
-                <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                <p className="text-md text-gray-500 dark:text-gray-300 py-4">
                   Voluptate dolore dolor consequat consectetur sint tempor sint
                   eiusmod consequat aliqua sint.
                 </p>
               </div>
-              <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
-                <div class="flex-shrink-0">
-                  <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <img src={feature} alt="feature" />
                   </div>
                 </div>
-                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4 h-24">
+                <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4 h-24">
                   Chat with teachers and friends.
                 </h3>
-                <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
                   Dolore aute dolore proident sint adipisicing proident minim
                   magna laboris dolor pariatur in sunt.
                 </p>
