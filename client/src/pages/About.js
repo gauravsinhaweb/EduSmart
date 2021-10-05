@@ -1,6 +1,6 @@
-import React from 'react';
-import { AboutIcon } from '../assets/icons';
-import feature from '../assets/feature.png';
+import React from "react";
+import { AboutIcon } from "../assets/icons";
+import feature from "../assets/feature.png";
 
 export function About() {
   return (
@@ -16,10 +16,11 @@ export function About() {
           </div>
           <div className="flex-1 lg:pr-12 px-12  text-white text-justify font-light capitalize leading-relaxed ">
             <p className=" lg:px-0 sm:px-12 pt-8 md:text-xl lg:text-2xl text-base">
-              In this pandemic situation E-learning is the new trend . from past year students are
-              stuck at their homes and attended numerous online classes. But online classes are
-              monotonous and concepts taught are not retained by our minds. Situation becomes worse
-              when a subject is mostly based on practicals.
+              In this pandemic situation E-learning is the new trend . from past
+              year students are stuck at their homes and attended numerous
+              online classes. But online classes are monotonous and concepts
+              taught are not retained by our minds. Situation becomes worse when
+              a subject is mostly based on practicals.
             </p>
           </div>
         </div>
@@ -49,8 +50,8 @@ export function About() {
                   Learn with Augmented Reality
                 </h3>
                 <p class="text-md text-gray-500 dark:text-gray-300 py-4">
-                  Voluptate dolore dolor consequat consectetur sint tempor sint eiusmod consequat
-                  aliqua sint.
+                  Voluptate dolore dolor consequat consectetur sint tempor sint
+                  eiusmod consequat aliqua sint.
                 </p>
               </div>
               <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
@@ -63,8 +64,8 @@ export function About() {
                   Chat with teachers and friends.
                 </h3>
                 <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
-                  Dolore aute dolore proident sint adipisicing proident minim magna laboris dolor
-                  pariatur in sunt.
+                  Dolore aute dolore proident sint adipisicing proident minim
+                  magna laboris dolor pariatur in sunt.
                 </p>
               </div>
             </div>

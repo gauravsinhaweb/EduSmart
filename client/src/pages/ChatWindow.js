@@ -16,14 +16,14 @@ export const ChatWindow = ({ socket, username, room }) => {
       };
 
       await socket.emit("send_message", messageData);
-      setMessageList((list) => [...list, messageData]);
+      setMessageList(list => [...list, messageData]);
       setCurrentMessage("");
     }
   };
   console.log(messageList);
   useEffect(() => {
-    socket.on("receive_message", (data) => {
-      setMessageList((list) => [...list, data]);
+    socket.on("receive_message", data => {
+      setMessageList(list => [...list, data]);
     });
   }, [socket]);
 
@@ -39,12 +39,11 @@ export const ChatWindow = ({ socket, username, room }) => {
         <p>Live Chat 🟢</p>
       </div>
       <div className="chat-body overflow-y-auto">
-        {messageList.map((messageContent) => {
+        {messageList.map(messageContent => {
           return (
             <div
               className="message"
-              id={username === messageContent.author ? "you" : "other"}
-            >
+              id={username === messageContent.author ? "you" : "other"}>
               <div>
                 <div className="message-content">
                   <p>{messageContent.message}</p>
@@ -64,10 +63,10 @@ export const ChatWindow = ({ socket, username, room }) => {
           type="text"
           value={currentMessage}
           placeholder="Hey..."
-          onChange={(event) => {
+          onChange={event => {
             setCurrentMessage(event.target.value);
           }}
-          onKeyPress={(event) => {
+          onKeyPress={event => {
             event.key === "Enter" && sendMessage();
           }}
         />

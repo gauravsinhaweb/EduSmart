@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 export function Contributors() {
   return (
     <div className="w-full">
-      <div className="text-3xl text-white font-extralight mt-8 text-center">Contributors🤝</div>
+      <div className="text-3xl text-white font-extralight mt-8 text-center">
+        Contributors🤝
+      </div>
       <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10 mx-20 my-40">
         <div>
           <div className="text-white text-xl text-center">
@@ -15,8 +17,7 @@ export function Contributors() {
                 <a
                   href="https://www.linkedin.com/in/harshalraikwal/"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -24,8 +25,7 @@ export function Contributors() {
                 <a
                   href="https://www.linkedin.com/in/harshalraikwal/"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
@@ -42,8 +42,7 @@ export function Contributors() {
                 <a
                   href="https://github.com/gauravsinhaweb"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -51,8 +50,7 @@ export function Contributors() {
                 <a
                   href="https://www.linkedin.com/in/gaurav-sinha-032386187/"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
@@ -67,7 +65,10 @@ export function Contributors() {
             </div>
             <div className="flex flex-row justify-center gap-6">
               <div className="text-sm font-light  underline  ml-0">
-                <a href="https://github.com/Slowgeek" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://github.com/Slowgeek"
+                  rel="noopener noreferrer"
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -75,8 +76,7 @@ export function Contributors() {
                 <a
                   href="https://www.linkedin.com/in/ritesh-kumar-300a221b7/"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
@@ -91,7 +91,10 @@ export function Contributors() {
             </div>
             <div className="flex flex-row justify-center gap-6">
               <div className="text-sm font-light  underline  ml-0">
-                <a href="https://github.com/xavierallem" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://github.com/xavierallem"
+                  rel="noopener noreferrer"
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -105,10 +108,15 @@ export function Contributors() {
         </div>
         <div>
           <div className="text-white text-xl text-center">
-            <div className="name-folder uppercase my-4 font-medium text-secondary">Harshit Raj</div>
+            <div className="name-folder uppercase my-4 font-medium text-secondary">
+              Harshit Raj
+            </div>
             <div className="flex flex-row justify-center gap-6">
               <div className="text-sm font-light  underline  ml-0">
-                <a href="https://github.com/rharshit82" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://github.com/rharshit82"
+                  rel="noopener noreferrer"
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -130,8 +138,7 @@ export function Contributors() {
                 <a
                   href="https://github.com/adarsh-chakraborty"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -139,8 +146,7 @@ export function Contributors() {
                 <a
                   href="https://linkedin.com/in/adarsh-chakraborty"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
@@ -154,7 +160,10 @@ export function Contributors() {
             </div>
             <div className="flex flex-row justify-center gap-6">
               <div className="text-sm font-light  underline  ml-0">
-                <a href="https://github.com/adithyapaib" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://github.com/adithyapaib"
+                  rel="noopener noreferrer"
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -162,8 +171,7 @@ export function Contributors() {
                 <a
                   href="https://www.linkedin.com/in/adithyapaib"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>
@@ -177,7 +185,10 @@ export function Contributors() {
             </div>
             <div className="flex flex-row justify-center gap-6">
               <div className="text-sm font-light  underline  ml-0">
-                <a href="https://github.com/mihirharshe" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://github.com/mihirharshe"
+                  rel="noopener noreferrer"
+                  target="_blank">
                   <i class="bx bxl-github icon-size"></i>
                 </a>
               </div>
@@ -185,8 +196,7 @@ export function Contributors() {
                 <a
                   href="https://www.linkedin.com/in/mihirharshe"
                   rel="noopener noreferrer"
-                  target="_blank"
-                >
+                  target="_blank">
                   <i class="bx bxl-linkedin icon-size"></i>
                 </a>
               </div>

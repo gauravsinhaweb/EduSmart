@@ -12,8 +12,7 @@ export function Chat() {
           <div className="">
             <label
               className="block text-gray-700 text-sm font-medium mb-2 text-white"
-              htmlFor="username"
-            >
+              htmlFor="username">
               Enter Your Name :
             </label>
             <div className="mb-4">
@@ -23,7 +22,7 @@ export function Chat() {
                 type="text"
                 placeholder="your name"
                 value={username}
-                onChange={(e) => {
+                onChange={e => {
                   setUsername(e.target.value);
                 }}
               />
@@ -38,8 +37,7 @@ export function Chat() {
               }
               className="disabled:opacity-50 bg-tertiary hover:bg-tertiary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="button"
-              disabled={username !== "" ? false : true}
-            >
+              disabled={username !== "" ? false : true}>
               Go!
             </button>
           </div>
@@ -48,4 +46,3 @@ export function Chat() {
     </>
   );
 }
-
