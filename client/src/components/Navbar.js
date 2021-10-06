@@ -12,8 +12,8 @@ export function Navbar(props) {
   return (
     <>
       <div
-        className={`rounded-r-2xl h-screen sticky top-0 z-50" bg-tertiary transition-all group  ${
-          !onHover ? "w-20" : "w-64"
+        className={`rounded-r-2xl h-screen sticky top-0 z-50" bg-tertiary transition-all group w-1/6 max-w-max min-w-max ${
+          !onHover ? "sm:w-20" : "sm:w-64"
         }`}>
         <div
           onClick={() => setOnHover(!onHover)}
