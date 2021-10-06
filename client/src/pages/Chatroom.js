@@ -51,7 +51,7 @@ export function Chatroom(props) {
                 joinRoomteacher();
                 setRoom("teacher");
               }}
-              className="my-5">
+              className="my-5 w-5/6 ">
               <Card title="Teacher" />
             </div>
             <div
@@ -59,7 +59,7 @@ export function Chatroom(props) {
                 joinRoomstudent();
                 setRoom("student");
               }}
-              className="my-5">
+              className="my-5 w-5/6">
               <Card title="Student" />
             </div>
           </div>

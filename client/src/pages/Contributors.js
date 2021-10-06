@@ -6,7 +6,7 @@ export function Contributors() {
       <div className="text-3xl text-white font-extralight mt-8 text-center">
         Contributors🤝
       </div>
-      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10 mx-20 my-40">
+      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10 sm:mx-20 my-40">
         <div>
           <div className="text-white text-xl text-center">
             <div className="name-folder uppercase my-4 font-medium text-secondary">
