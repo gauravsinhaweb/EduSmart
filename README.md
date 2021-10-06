@@ -2,7 +2,7 @@
 <a href="#contributing"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github"></a> <a href="https://github.com/gauravsinhaweb/EduSmart/blob/master/LICENSE"> <img alt="GitHub License MIT" src="https://img.shields.io/github/license/gauravsinhaweb/EduSmart?style=for-the-badge&labelColor=black&logo=github"> </a>
 ## 🤗 Contributing
 
-Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution guide.
+Check out the [Contribution Guide](CONTRIBUTING.md) for local setup and contribution information.
 
 ## 🏷 Tagline:
 Lets Make it Real   
@@ -11,16 +11,16 @@ Lets Make it Real
 <img src="https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif" width="250px" >
 
 
-## 🧐 Problems It Solves:
-In this pandemic, E-learning has proved a new and efficient method. For the past year, students stuck in their homes have attended numerous online classes. But these online classes are monotonous and concepts taught are not retained in their minds. The situation becomes worse when the subjects are practically based. Because of this, the actual visualization is crucial in subjects such as Aerospace, Biology, and many more. With this application, we focus on solving this problem. It utilizes 3D, Augmented reality to give real-life simulations or feels of various models and make the learning process more impactful and fascinating. With an interactive live feature, students can ask the teacher their doubts instantly and also discuss.
+## 🧐 Problem Addressed:
+During the course of the pandemic, E-learning has proven to be an efficient an effective mode of learning. For the past year, students have been stuck in their homes attending classes online. Often, these classes are boring and lack engagement making it harder for students to retain what they have learned. Courses with practical or hands-on elements are especially challenging to teach online. This makes the ability to visualize crucial in subjects such as Aerospace, Biology, and many others. With this application, we focus on solving the problem of visualization in online classes by using 3D, Augmented reality to give life-like simulations of various models and make the learning process more impactful and engaging. With built-in interactivity, students can ask questions synchronously and get instant feedback.
 ## 🔴 Live demo
 
-The site is deployed throught Vercel, which you can view from [here](https://edu-smart.vercel.app/)  
-Checkout the ppt from [here](https://www.canva.com/design/DAEpFl8JPvs/4wUFIgirVNxxOuMvdLS7MQ/view?utm_content=DAEpFl8JPvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+The site is deployed throught Vercel, and you can access it [here](https://edu-smart.vercel.app/)  
+Check out the presentation for more details [here](https://www.canva.com/design/DAEpFl8JPvs/4wUFIgirVNxxOuMvdLS7MQ/view?utm_content=DAEpFl8JPvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 ## 📺 Demo video:
 
-Checkout the complete demo video from [here](https://youtu.be/WpuTS0YcoEQ)
+Check out the complete demo video [here](https://youtu.be/WpuTS0YcoEQ)
 
 ## 🚀 Main Features:
 
@@ -46,7 +46,7 @@ Checkout the complete demo video from [here](https://youtu.be/WpuTS0YcoEQ)
 - AR: [echoAR](https://www.echoar.xyz/)
 - 3D Models: [sketchfab.com](https://sketchfab.com)
 
-## 🖼️ Some glimps of the site:
+## 🖼️ Previews of the site:
 ![1](https://user-images.githubusercontent.com/75125943/135756188-d82bc259-4c02-4c18-b6bf-11189b980bed.PNG)
 
 
