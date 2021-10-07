@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
@@ -6,9 +7,9 @@ import { RiTeamFill } from "react-icons/ri";
 import { SiGoogleclassroom } from "react-icons/si";
 import { useHistory } from "react-router";
 
-export function Navbar(props) {
-  const { onHover, setOnHover } = props;
+export function Navbar({ onHover, setOnHover = () => {} }) {
   const history = useHistory();
+
   return (
     <>
       <div
@@ -65,7 +66,7 @@ export function Navbar(props) {
             <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center">
               Home
             </span>
-          </div>{" "}
+          </div>
           <div
             onClick={() => history.push("classroom")}
             className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
@@ -76,7 +77,7 @@ export function Navbar(props) {
             <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center">
               Classroom
             </span>
-          </div>{" "}
+          </div>
           <div
             onClick={() => history.push("chat")}
             className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
@@ -87,7 +88,7 @@ export function Navbar(props) {
             <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center">
               Chat
             </span>
-          </div>{" "}
+          </div>
           <div
             onClick={() => history.push("contributors")}
             className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
@@ -98,9 +99,14 @@ export function Navbar(props) {
             <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center ">
               Contributors
             </span>
-          </div>{" "}
+          </div>
         </div>
       </div>
     </>
   );
 }
+
+Navbar.propTypes = {
+  onHover: PropTypes.bool,
+  setOnHover: PropTypes.func
+};
