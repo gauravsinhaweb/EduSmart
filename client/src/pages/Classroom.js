@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Card from "../components/Card";
-import { ClassRoomIcon } from "../assets/icons";
 import ClassRoomImg from "../assets/icons/classroom.svg";
+import Card from "../components/Card";
 export function Classroom() {
   return (
     <>
