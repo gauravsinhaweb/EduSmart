@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
@@ -8,7 +8,6 @@ import { SiGoogleclassroom } from "react-icons/si";
 import { useHistory } from "react-router";
 
 export function Navbar({ onHover, setOnHover = () => {} }) {
-  
   const history = useHistory();
 
   return (
@@ -109,5 +108,5 @@ export function Navbar({ onHover, setOnHover = () => {} }) {
 
 Navbar.propTypes = {
   onHover: PropTypes.bool,
-  setOnHover: PropTypes.func,
-}
+  setOnHover: PropTypes.func
+};
