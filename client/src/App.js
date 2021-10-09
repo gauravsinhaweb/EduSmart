@@ -38,6 +38,8 @@ function App() {
           >
             <Navbar onHover={onHover} setOnHover={setOnHover} />
             <div className="w-5/6 mx-auto">
+              <Route path="/login" exact component={LoginPage} />
+
               <Route path="/" exact component={About} />
               <Route path="/home" exact component={Home} />
               {/* <Route path="/chat" exact component={Chat} /> */}
