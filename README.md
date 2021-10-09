@@ -50,7 +50,11 @@ Check out the complete demo video [here](https://youtu.be/WpuTS0YcoEQ)
 ![1](https://user-images.githubusercontent.com/75125943/135756188-d82bc259-4c02-4c18-b6bf-11189b980bed.PNG)
 
 
-![2](https://user-images.githubusercontent.com/75125943/135756196-751706c2-26d8-44b4-b937-725bb92c0ad4.PNG)
+![explore](https://user-images.githubusercontent.com/75125943/136646832-4a020da9-72df-4dc3-a3ca-906950571cf9.png)
+
+
+
+![Screenshot 2021-10-09 115000](https://user-images.githubusercontent.com/75125943/136646853-019d8f87-f7e1-44db-9b6b-27f9775f8a64.png)
 
 
 
