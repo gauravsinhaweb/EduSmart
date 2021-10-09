@@ -29,7 +29,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={LoginPage} />{" "}
+          {/* <Route path="/" exact component={LoginPage} />{" "} */}
           <div
             className="font-serif select-none	bg-primary flex"
             // onClick={() => {
@@ -38,7 +38,7 @@ function App() {
           >
             <Navbar onHover={onHover} setOnHover={setOnHover} />
             <div className="w-5/6 mx-auto">
-              <Route path="/about" exact component={About} />
+              <Route path="/" exact component={About} />
               <Route path="/home" exact component={Home} />
               {/* <Route path="/chat" exact component={Chat} /> */}
 
