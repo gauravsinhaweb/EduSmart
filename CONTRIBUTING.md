@@ -27,10 +27,7 @@ A. It is an issue with file endings. If the other dev works with Ubuntu and you 
 
 ![Screenshot 2021-10-07 172504](https://user-images.githubusercontent.com/75125943/136379375-b82cae32-cc97-4876-99e4-2655dea2e5fd.png)
 
-To fix it, you Can change CRLF -> LF ( In the BOTTOM MOST RIGHT side of the VSCODE ).
-
-
-![Screenshot 2021-10-07 173029](https://user-images.githubusercontent.com/75125943/136380430-ebe1fe93-1e4e-474f-8d1e-b31d64747e32.png)
+To fix it, open `/client` directory in your terminal and follow the command `yarn run lint --fix` or refer to this link: https://developpaper.com/solution-to-delete-%E2%90%8Deslint-prettier-prettier-error/?fbclid=IwAR0hUBaQBvH2Mvzho20TaepQr0qnTf93qEfvOFMvzMz7soGkFUjHG242eK0
 
 
 
