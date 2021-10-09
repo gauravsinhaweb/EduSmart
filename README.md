@@ -56,6 +56,10 @@ Check out the complete demo video [here](https://youtu.be/WpuTS0YcoEQ)
 
 ![Screenshot 2021-10-09 115000](https://user-images.githubusercontent.com/75125943/136646853-019d8f87-f7e1-44db-9b6b-27f9775f8a64.png)
 
+## Contributors:
 
+<a href="https://github.com/gauravsinhaweb/EduSmart/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gauravsinhaweb/EduSmart" />
+</a>
 
 #### `#happy hacking!`
