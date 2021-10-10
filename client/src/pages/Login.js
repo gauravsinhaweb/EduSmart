@@ -31,18 +31,20 @@ export const LoginPage = () => {
   }
   return (
     <>
-      <div className="h-screen bg-primary flex items-center justify-center w-full ">
-        <div>
-          <div
-            className="lg:h-56"
-            id="sawo-container"
-            style={{ height: "25vh", width: "25rem" }}></div>
-        </div>
-        <div className="">
-          <div className="ml-40 mt-80 opacity-80">
-            <LoginIcon />
-          </div>
-        </div>
+      <div className="h-screen bg-primary flex items-center  flex-col w-full ">
+        <div className="text-white text-5xl	py-6">Login</div>
+        <div
+          className="lg:h-56"
+          id="sawo-container"
+          style={{
+            minHeight: "30vh",
+            maxHeight: "45vh",
+
+            width: "80%",
+            maxWidth: "35rem",
+            minWidth: "14rem"
+          }}></div>
+        <LoginIcon />
       </div>
     </>
   );
