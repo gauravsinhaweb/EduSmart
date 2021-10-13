@@ -11,6 +11,6 @@ const Planets = () => {
       <PlanetJupiter />
     </div>
   );
-}
+};
 
 export default Planets;

@@ -11,6 +11,6 @@ const Medical = () => {
       <Skeleton />
     </div>
   );
-}
+};
 
 export default Medical;

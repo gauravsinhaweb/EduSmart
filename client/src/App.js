@@ -7,7 +7,7 @@ import {
   Boeing777Explore,
   TurbofanExplore
 } from "./components/3DExplore";
-import { AreoSpace, Chatbot, Navbar, Medical, Planets } from "./components";
+import { AeroSpace, Chatbot, Navbar, Medical, Planets } from "./components";
 import {
   Contributors,
   Home,
@@ -68,7 +68,7 @@ function App() {
                 exact
                 component={TurbofanExplore}
               />
-              <Route path="/aerospacePage" exact component={AreoSpace} />
+              <Route path="/aerospacePage" exact component={AeroSpace} />
               <Route path="/contributors" exact component={Contributors} />
               <Route path="/Planets" exact component={Planets} />
               <Chatbot />

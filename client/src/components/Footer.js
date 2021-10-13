@@ -9,6 +9,6 @@ const Footer = () => {
       &nbsp;by team Hack Elite
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -174,6 +174,6 @@ const Chatbot = () => {
       </ThemeProvider>
     </div>
   );
-}
+};
 
 export default Chatbot;

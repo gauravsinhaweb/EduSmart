@@ -104,7 +104,7 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
       </div>
     </>
   );
-}
+};
 
 Navbar.propTypes = {
   onHover: PropTypes.bool,
