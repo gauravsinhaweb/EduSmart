@@ -1,5 +1,8 @@
 import React from "react";
-import { Chatroom, About, Classroom, Contributors } from "./";
+import Chatroom from "./Chatroom";
+import About from "./About";
+import Classroom from "./Classroom";
+import Contributors from "./Contributors";
 
 const Home = () => {
   return (

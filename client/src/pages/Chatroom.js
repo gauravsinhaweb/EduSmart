@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import { ChatRoomIcon } from "../assets/icons";
 import Card from "../components/Card";
-import { ChatWindow } from "./";
+import ChatWindow from "./ChatWindow";
 
 const Chatroom = ({ socket }) => {
   const location = useLocation();
