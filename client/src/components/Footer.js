@@ -1,4 +1,4 @@
-export function Footer() {
+const Footer = () => {
   return (
     <div className="flex bg-gray-900 text-white justify-center text-xl py-3 items-center w-full mx-auto z-50">
       &lt;/&gt; with &nbsp;
@@ -10,3 +10,5 @@ export function Footer() {
     </div>
   );
 }
+
+export default Footer;
