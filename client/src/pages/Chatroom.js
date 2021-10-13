@@ -9,7 +9,6 @@ const Chatroom = ({ socket }) => {
 
   console.log(socket);
   const [username, setUsername] = useState("");
-  // if (location.state) setUsername(location.state.username);
   const [showChat, setShowChat] = useState(false);
 
   const [room, setRoom] = useState("");
@@ -19,10 +18,8 @@ const Chatroom = ({ socket }) => {
     if (username !== "") {
       socket.emit("join_room", "student");
       setShowChat(true);
-      // history.push("/chatwindow")
     } else {
       alert("username is must !");
-      // window.location.reload();
     }
   };
   const joinRoomteacher = () => {
@@ -31,7 +28,6 @@ const Chatroom = ({ socket }) => {
       setShowChat(true);
     } else {
       alert("username is must !");
-      // window.location.reload();
     }
   };
   useEffect(() => {
@@ -65,10 +61,6 @@ const Chatroom = ({ socket }) => {
         ) : (
           <ChatWindow socket={socket} username={username} room={room} />
         )}
-        {/* <div className="flex justify-around  mt-16 opacity-90">
-          <div></div>
-          <div> {!showChat ? <ChatRoomIcon /> : null}</div>
-        </div> */}
       </div>
     </>
   );
