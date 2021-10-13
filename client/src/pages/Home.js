@@ -1,7 +1,7 @@
 import React from "react";
 import { Chatroom, About, Classroom, Contributors } from "./";
 
-export function Home() {
+const Home = () => {
   return (
     <>
       <div className="flex flex-col	">
@@ -20,4 +20,6 @@ export function Home() {
       </div>
     </>
   );
-}
+};
+
+export default Home;
