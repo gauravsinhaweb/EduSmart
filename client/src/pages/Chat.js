@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
 
-export function Chat() {
+const Chat = () => {
   const [username, setUsername] = useState("");
   const history = useHistory();
   console.log(username);
@@ -45,4 +45,6 @@ export function Chat() {
       </div>
     </>
   );
-}
+};
+
+export default Chat;
