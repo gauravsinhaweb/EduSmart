@@ -1,6 +1,6 @@
 import { PlantCell, AnimalCell, Skeleton } from "./3DModel";
 
-export function Medical() {
+const Medical = () => {
   return (
     <div>
       <div className="text-3xl text-white font-extralight ml-48 mt-8">
@@ -12,3 +12,5 @@ export function Medical() {
     </div>
   );
 }
+
+export default Medical;
