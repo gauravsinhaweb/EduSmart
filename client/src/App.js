@@ -2,26 +2,32 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import io from "socket.io-client";
+
 import {
   AnimalCellExplore,
   Boeing777Explore,
   TurbofanExplore
 } from "./components/3DExplore";
-import { AreoSpace, Chatbot, Navbar, Medical, Planets } from "./components";
-import {
-  Contributors,
-  Home,
-  Chat,
-  About,
-  Chatroom,
-  Classroom,
-  LoginPage
-} from "./pages";
+
+import AeroSpace from "./components/AeroSpace";
+import Chatbot from "./components/Chatbot";
+import Navbar from "./components/Navbar";
+import Medical from "./components/Medical";
+import Planets from "./components/Planets";
+
+import Contributors from "./pages/Contributors";
+import Home from "./pages/Home";
+import Chat from "./pages/Chat";
+import About from "./pages/About";
+import Chatroom from "./pages/Chatroom";
+import Classroom from "./pages/Classroom";
+import LoginPage from "./pages/Login";
 // import Footer from './components/Footer';
 const socket = io.connect("/");
 socket.on("connect", function() {
   console.log(socket.id);
 });
+
 function App() {
   const [onHover, setOnHover] = useState(false);
 
@@ -68,7 +74,7 @@ function App() {
                 exact
                 component={TurbofanExplore}
               />
-              <Route path="/aerospacePage" exact component={AreoSpace} />
+              <Route path="/aerospacePage" exact component={AeroSpace} />
               <Route path="/contributors" exact component={Contributors} />
               <Route path="/Planets" exact component={Planets} />
               <Chatbot />
