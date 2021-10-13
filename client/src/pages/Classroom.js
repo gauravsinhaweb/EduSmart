@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ClassRoomImg from "../assets/icons/classroom.svg";
 import Card from "../components/Card";
-export function Classroom() {
+
+const Classroom = () => {
   return (
     <>
       <div className="w-full mb-4">
@@ -36,4 +37,6 @@ export function Classroom() {
       </div>
     </>
   );
-}
+};
+
+export default Classroom;
