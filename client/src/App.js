@@ -7,7 +7,11 @@ import {
   Boeing777Explore,
   TurbofanExplore
 } from "./components/3DExplore";
-import { AeroSpace, Chatbot, Navbar, Medical, Planets } from "./components";
+import AeroSpace from "./components/AeroSpace";
+import Chatbot from "./components/Chatbot";
+import Navbar from "./components/Navbar";
+import Medical from "./components/Medical";
+import Planets from "./components/Planets";
 import {
   Contributors,
   Home,
