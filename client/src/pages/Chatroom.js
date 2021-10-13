@@ -4,8 +4,7 @@ import { ChatRoomIcon } from "../assets/icons";
 import Card from "../components/Card";
 import { ChatWindow } from "./";
 
-export function Chatroom(props) {
-  const { socket } = props;
+const Chatroom = ({ socket }) => {
   const location = useLocation();
 
   console.log(socket);
@@ -73,4 +72,6 @@ export function Chatroom(props) {
       </div>
     </>
   );
-}
+};
+
+export default Chatroom;
