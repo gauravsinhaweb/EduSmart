@@ -8,6 +8,7 @@ import {
   TurbofanExplore
 } from "./components/3DExplore";
 import { AreoSpace, Chatbot, Navbar, Medical, Planets } from "./components";
+import Faq from "./pages/Faq";
 import {
   Contributors,
   Home,
@@ -69,6 +70,8 @@ function App() {
               <Route path="/aerospacePage" exact component={AreoSpace} />
               <Route path="/contributors" exact component={Contributors} />
               <Route path="/Planets" exact component={Planets} />
+              <Route path="/faq" exact component={Faq} />
+
               <Chatbot />
             </div>
           </div>

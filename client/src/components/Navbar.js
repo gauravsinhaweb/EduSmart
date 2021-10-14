@@ -44,6 +44,11 @@ export function Navbar({ onHover, setOnHover = () => {} }) {
             className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
             <RiTeamFill />
           </div>
+          <div
+            onClick={() => history.push("faq")}
+            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
+            <RiTeamFill />
+          </div>
         </div>
 
         {/* section-2 */}
@@ -91,6 +96,18 @@ export function Navbar({ onHover, setOnHover = () => {} }) {
           </div>
           <div
             onClick={() => history.push("contributors")}
+            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
+            <span className="text-white px-2  text-2xl flex h-12  align-center">
+              <RiTeamFill />
+            </span>
+
+            <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center ">
+              Contributors
+            </span>
+          </div>
+
+          <div
+            onClick={() => history.push("faq")}
             className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
             <span className="text-white px-2  text-2xl flex h-12  align-center">
               <RiTeamFill />
