@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Contributors() {
+const Contributors = () => {
   return (
     <div className="w-full">
       <div className="text-3xl text-white font-extralight mt-8 text-center">
@@ -206,4 +206,6 @@ export function Contributors() {
       </div>
     </div>
   );
-}
+};
+
+export default Contributors;

@@ -2,7 +2,7 @@ import React from "react";
 import { AboutIcon } from "../assets/icons";
 import feature from "../assets/feature.png";
 
-export function About() {
+const About = () => {
   return (
     <>
       <div className="w-full h-full">
@@ -79,4 +79,6 @@ export function About() {
       </div>
     </>
   );
-}
+};
+
+export default About;

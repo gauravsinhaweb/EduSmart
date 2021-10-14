@@ -2,15 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import { ChatRoomIcon } from "../assets/icons";
 import Card from "../components/Card";
-import { ChatWindow } from "./";
+import ChatWindow from "./ChatWindow";
 
-export function Chatroom(props) {
-  const { socket } = props;
+const Chatroom = ({ socket }) => {
   const location = useLocation();
 
   console.log(socket);
   const [username, setUsername] = useState("");
-  // if (location.state) setUsername(location.state.username);
   const [showChat, setShowChat] = useState(false);
 
   const [room, setRoom] = useState("");
@@ -20,10 +18,8 @@ export function Chatroom(props) {
     if (username !== "") {
       socket.emit("join_room", "student");
       setShowChat(true);
-      // history.push("/chatwindow")
     } else {
       alert("username is must !");
-      // window.location.reload();
     }
   };
   const joinRoomteacher = () => {
@@ -32,7 +28,6 @@ export function Chatroom(props) {
       setShowChat(true);
     } else {
       alert("username is must !");
-      // window.location.reload();
     }
   };
   useEffect(() => {
@@ -66,11 +61,9 @@ export function Chatroom(props) {
         ) : (
           <ChatWindow socket={socket} username={username} room={room} />
         )}
-        {/* <div className="flex justify-around  mt-16 opacity-90">
-          <div></div>
-          <div> {!showChat ? <ChatRoomIcon /> : null}</div>
-        </div> */}
       </div>
     </>
   );
-}
+};
+
+export default Chatroom;

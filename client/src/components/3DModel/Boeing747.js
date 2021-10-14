@@ -43,7 +43,7 @@ export function Boeing747() {
                   far={0.8}
                 />
               </Suspense>
-              <OrbitControls />
+              <OrbitControls autoRotate />
             </Canvas>
           </div>
 

@@ -7,7 +7,7 @@ import { RiTeamFill } from "react-icons/ri";
 import { SiGoogleclassroom } from "react-icons/si";
 import { useHistory } from "react-router";
 
-export function Navbar({ onHover, setOnHover = () => {} }) {
+const Navbar = ({ onHover, setOnHover = () => {} }) => {
   const history = useHistory();
 
   return (
@@ -121,9 +121,11 @@ export function Navbar({ onHover, setOnHover = () => {} }) {
       </div>
     </>
   );
-}
+};
 
 Navbar.propTypes = {
   onHover: PropTypes.bool,
   setOnHover: PropTypes.func
 };
+
+export default Navbar;

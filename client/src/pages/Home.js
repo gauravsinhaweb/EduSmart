@@ -1,7 +1,10 @@
 import React from "react";
-import { Chatroom, About, Classroom, Contributors } from "./";
+import Chatroom from "./Chatroom";
+import About from "./About";
+import Classroom from "./Classroom";
+import Contributors from "./Contributors";
 
-export function Home() {
+const Home = () => {
   return (
     <>
       <div className="flex flex-col	">
@@ -20,4 +23,6 @@ export function Home() {
       </div>
     </>
   );
-}
+};
+
+export default Home;

@@ -1,6 +1,6 @@
 import { Planet, PlanetMars, PlanetJupiter } from "./3DModel";
 
-export function Planets() {
+const Planets = () => {
   return (
     <div>
       <div className="text-3xl text-white font-extralight ml-48 mt-8">
@@ -11,4 +11,6 @@ export function Planets() {
       <PlanetJupiter />
     </div>
   );
-}
+};
+
+export default Planets;
