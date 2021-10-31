@@ -18,7 +18,7 @@ export function Boeing777() {
     <>
       <div className="py-8">
         <div className="md:grid md:grid-cols-2 lg:mx-20 sm:mx-4">
-          <div className="w-full h-full px-4 outline-none cursor-pointer lg:block">
+          <div className="w-full h-1/2 md:h-full px-4 outline-none cursor-pointer lg:block">
             <Canvas
               shadows
               dpr={[1, 2]}
@@ -61,21 +61,21 @@ export function Boeing777() {
                 was designed to bridge the gap between Boeing's 767 and 747, and
                 to replace older DC-10s and L-1011s.
               </p>
-
-              <Link to="boeing777Explore">
-                <button className="h-12 px-2 my-4 ml-12 text-base font-semibold tracking-wider text-white w-44 border rounded-full shadow-sm hover:shadow-lg bg-secondary">
-                  Explore More
-                </button>
-              </Link>
-
+              <div className="text-center my-6">
+                <Link to="boeing777Explore">
+                  <button className="h-12 px-2 my-4 text-base font-semibold tracking-wider text-white w-44 border rounded-full shadow-sm hover:shadow-lg bg-secondary">
+                    Explore More
+                  </button>
+                </Link>
+              </div>
               <p className="self-center mt-2 mx-8 text-lg tracking-wide text-center text-white">
                 To view the 3D model in AR, scan the QR code or click on the
                 button below.
               </p>
 
-              <div className="grid justify-center grid-cols-1 gap-6 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
+              <div className="grid text-center justify-center grid-cols-1 gap-6 pb-8 mx-8 xl:grid-cols-2">
                 <img
-                  className="flex p-6 text-6xl rounded-xl h-60 w-60"
+                  className="flex mx-auto p-6 text-6xl rounded-xl h-60 w-60"
                   src="https://storage.echoar.xyz/wispy-violet-4999/9a227ded-f32f-457a-bb7d-e5c55311022f"
                   alt="Boeig 777 QR"
                 />
@@ -83,7 +83,7 @@ export function Boeing777() {
                   href="https://go.echoar.xyz/cie1"
                   target="_blank"
                   rel="noreferrer">
-                  <button className="h-12 px-8 ml-12 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
+                  <button className="h-12 px-8 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
                     View in AR
                   </button>
                 </a>

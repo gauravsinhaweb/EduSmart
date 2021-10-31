@@ -16,8 +16,8 @@ export function Boeing747() {
   return (
     <>
       <div className="py-8">
-        <div className="md:grid md:grid-cols-2 lg:mx-20 sm:mx-4">
-          <div className="w-full h-full px-4 outline-none cursor-pointer lg:block">
+        <div className="grid-cols-1 md:grid md:grid-cols-2 lg:mx-20 sm:mx-4">
+          <div className="w-full h-1/2 md:h-full px-4 outline-none cursor-pointer lg:block">
             <Canvas
               shadows
               dpr={[1, 2]}
@@ -66,9 +66,9 @@ export function Boeing747() {
                 button below.
               </p>
 
-              <div className="grid justify-center grid-cols-1 gap-6 pb-8 mx-8 md:grid-cols-2 lg:grid-cols-2">
+              <div className="grid justify-center text-center grid-cols-1 gap-6 pb-8 mx-8 xl:grid-cols-2">
                 <img
-                  className="flex p-6 text-6xl rounded-xl h-60 w-60"
+                  className="flex mx-auto p-6 text-6xl rounded-xl h-60 w-60"
                   src="https://storage.echoar.xyz/wispy-violet-4999/c6c12f53-b87b-44bd-be78-3300b57a6462"
                   alt="Boeing 747 QR"
                 />
@@ -76,7 +76,7 @@ export function Boeing747() {
                   href="https://go.echoar.xyz/7sFk"
                   target="_blank"
                   rel="noreferrer">
-                  <button className="h-12 px-8 ml-12 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
+                  <button className="h-12 px-8 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
                     View in AR
                   </button>
                 </a>
