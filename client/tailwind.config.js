@@ -24,7 +24,8 @@ module.exports = {
       primary: "#1B2431",
       secondary: "#016795",
       tertiary: "#1E488F",
-      white: "#ffffff"
+      white: "#ffffff",
+      red: "#991B1B"
     },
     fontFamily: {
       serif: ["poppins"]

@@ -5,6 +5,7 @@ import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { RiTeamFill } from "react-icons/ri";
 import { SiGoogleclassroom } from "react-icons/si";
+import { GiMagnifyingGlass } from "react-icons/gi";
 import { useHistory } from "react-router";
 
 const Navbar = ({ onHover, setOnHover = () => {} }) => {
@@ -47,7 +48,7 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
           <div
             onClick={() => history.push("faq")}
             className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
-            <RiTeamFill />
+            <GiMagnifyingGlass />
           </div>
         </div>
 
@@ -110,11 +111,11 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
             onClick={() => history.push("faq")}
             className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
             <span className="text-white px-2  text-2xl flex h-12  align-center">
-              <RiTeamFill />
+              <GiMagnifyingGlass />
             </span>
 
             <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center ">
-              Contributors
+              FAQs
             </span>
           </div>
         </div>

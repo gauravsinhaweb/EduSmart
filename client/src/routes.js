@@ -22,6 +22,7 @@ import Chatroom from "./pages/Chatroom";
 import Classroom from "./pages/Classroom";
 import LoginPage from "./pages/Login";
 import ScrollToTop from "./ScrollToTop";
+import Faq from "./pages/Faq";
 
 const Routes = () => {
   const [onHover, setOnHover] = useState(false);
@@ -75,6 +76,8 @@ const Routes = () => {
             />
             <ScrollToTop />
 
+            <Route path="/faq" exact component={Faq} />
+            <ScrollToTop />
             <Route path="/turbofanExplore" exact component={TurbofanExplore} />
             <ScrollToTop />
 
