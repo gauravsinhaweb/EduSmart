@@ -8,7 +8,8 @@ export const ClassRoomIcon = props => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width={width || 415}
       height={height || 332}
-      {...props}>
+      {...props}
+    >
       <defs>
         <clipPath id="prefix__b">
           <path d="M0 0h415v332H0z" />
@@ -785,7 +786,8 @@ export const ClassRoomIcon = props => {
           x="0%"
           y="0%"
           width="100%"
-          height="100%">
+          height="100%"
+        >
           <feColorMatrix
             in="SourceGraphic"
             values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"

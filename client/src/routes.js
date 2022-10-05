@@ -14,16 +14,17 @@ import Navbar from "./components/Navbar";
 import Medical from "./components/Medical";
 import Planets from "./components/Planets";
 
-import Contributors from "./pages/Contributors";
-import Home from "./pages/Home";
-import Chat from "./pages/Chat";
-import About from "./pages/About";
-import Chatroom from "./pages/Chatroom";
-import Classroom from "./pages/Classroom";
-import LoginPage from "./pages/Login";
-import ScrollToTop from "./ScrollToTop";
-import Faq from "./pages/Faq";
-
+import {
+  About,
+  Classroom,
+  Contributors,
+  Faq,
+  Home,
+  Chatroom,
+  Chat,
+  LoginPage
+} from "./pages";
+import { ScrollToTop } from "./ScrollToTop";
 const Routes = () => {
   const [onHover, setOnHover] = useState(false);
 

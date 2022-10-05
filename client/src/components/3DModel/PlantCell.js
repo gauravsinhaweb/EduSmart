@@ -21,7 +21,8 @@ export function PlantCell() {
             <Canvas
               shadows
               dpr={[1, 2]}
-              camera={{ position: [0, 0, 4], fov: 50 }}>
+              camera={{ position: [0, 0, 4], fov: 50 }}
+            >
               <ambientLight intensity={0.7} />
               <spotLight
                 intensity={0.5}
@@ -75,7 +76,8 @@ export function PlantCell() {
                 <a
                   href="https://go.echoar.xyz/PvQw"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <button className="h-12 px-8 ml-12 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
                     View in AR
                   </button>

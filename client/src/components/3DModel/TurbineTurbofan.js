@@ -22,7 +22,8 @@ export function Turbofans() {
             <Canvas
               shadows
               dpr={[1, 2]}
-              camera={{ position: [-4, 2, -4], fov: 50 }}>
+              camera={{ position: [-4, 2, -4], fov: 50 }}
+            >
               <ambientLight intensity={0.8} />
               <spotLight
                 intensity={1}
@@ -84,7 +85,8 @@ export function Turbofans() {
                 <a
                   href="https://go.echoar.xyz/PQkD"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <button className="h-12 px-8  text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
                     View in AR
                   </button>

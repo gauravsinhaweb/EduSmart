@@ -2,7 +2,7 @@ import React from "react";
 import { AboutIcon } from "../assets/icons";
 import feature from "../assets/feature.png";
 
-const About = () => {
+export const About = () => {
   return (
     <>
       <div className="w-full h-full">
@@ -11,7 +11,8 @@ const About = () => {
           <span
             className="text-2xl md:text-5xl pl-4 font-light"
             role="img"
-            arial-label="EduSmart hat">
+            aria-label="about"
+          >
             EduSmart🎓
           </span>
         </div>
@@ -80,5 +81,3 @@ const About = () => {
     </>
   );
 };
-
-export default About;

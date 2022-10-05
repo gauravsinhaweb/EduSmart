@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import { ChatRoomIcon } from "../assets/icons";
 import Card from "../components/Card";
-import ChatWindow from "./ChatWindow";
+import { ChatWindow } from "./ChatWindow";
 
-const Chatroom = ({ socket }) => {
+export const Chatroom = ({ socket }) => {
   const location = useLocation();
 
   console.log(socket);
@@ -46,7 +46,8 @@ const Chatroom = ({ socket }) => {
                 joinRoomteacher();
                 setRoom("teacher");
               }}
-              className="my-5 w-5/6 ">
+              className="my-5 w-5/6 "
+            >
               <Card title="Teacher" />
             </div>
             <div
@@ -54,7 +55,8 @@ const Chatroom = ({ socket }) => {
                 joinRoomstudent();
                 setRoom("student");
               }}
-              className="my-5 w-5/6">
+              className="my-5 w-5/6"
+            >
               <Card title="Student" />
             </div>
           </div>
