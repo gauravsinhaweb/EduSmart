@@ -28,7 +28,8 @@ function Model(props) {
       onPointerMissed={() => (state.current = null)}
       onPointerDown={e => (
         e.stopPropagation(), (state.current = e.object.material.name)
-      )}>
+      )}
+    >
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group position={[-10.68, -10.64, 0]} rotation={[0, 0, Math.PI / 2]}>
           <group rotation={[Math.PI / 2, 0, 0]}>
@@ -277,7 +278,8 @@ export function Boeing777Explore() {
           <Canvas
             shadows
             dpr={[1, 2]}
-            camera={{ position: [-4, 4, 4], fov: 50 }}>
+            camera={{ position: [-4, 4, 4], fov: 50 }}
+          >
             <ambientLight intensity={0.7} />
             <spotLight
               intensity={0.5}

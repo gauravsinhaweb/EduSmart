@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsQuestionCircleFill } from "react-icons/bs";
 import faqImg from "../assets/faq1.png";
-function Faq() {
+export const Faq = () => {
   const [active, setActive] = useState(false);
 
   return (
@@ -30,7 +30,8 @@ function Faq() {
                       onClick={() => setActive(!active)}
                       className={`card font-medium	 ${
                         active ? "text-secondary" : "hover:text-red "
-                      }`}>
+                      }`}
+                    >
                       What is EduSmart?
                     </summary>
                     <p className="text-gray-400 md:text-md  font-sem font-light	opacity-70 ">
@@ -96,6 +97,4 @@ function Faq() {
       </body>
     </div>
   );
-}
-
-export default Faq;
+};

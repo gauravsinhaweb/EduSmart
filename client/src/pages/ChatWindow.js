@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const ChatWindow = ({ socket, username, room }) => {
+export const ChatWindow = ({ socket, username, room }) => {
   const [currentMessage, setCurrentMessage] = useState("");
   const [messageList, setMessageList] = useState([]);
   const sendMessage = async () => {
@@ -36,14 +36,16 @@ const ChatWindow = ({ socket, username, room }) => {
   return (
     <div className="chat-window">
       <div className="chat-header">
-        <p>Live Chat 🟢</p>
+        <p>{`Live Chat 🟢`}</p>
       </div>
       <div className="chat-body overflow-y-auto">
-        {messageList.map(messageContent => {
+        {messageList.map((messageContent, i) => {
           return (
             <div
+              key={i}
               className="message"
-              id={username === messageContent.author ? "you" : "other"}>
+              id={username === messageContent.author ? "you" : "other"}
+            >
               <div>
                 <div className="message-content">
                   <p>{messageContent.message}</p>
@@ -75,5 +77,3 @@ const ChatWindow = ({ socket, username, room }) => {
     </div>
   );
 };
-
-export default ChatWindow;

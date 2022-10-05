@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import ClassRoomImg from "../assets/icons/classroom.svg";
 import Card from "../components/Card";
 
-const Classroom = () => {
+export const Classroom = () => {
   return (
     <>
       <div className="w-full mb-4">
         <div className="text-3xl text-white font-extralight mt-8 text-center">
-          Classroom🎓
+          {`  Classroom🎓`}
         </div>
         <div className="flex justify-center items-center lg:justify-around flex-col lg:flex-row mt-16">
           <Link to="medical" className="my-5 w-5/6">
@@ -38,5 +38,3 @@ const Classroom = () => {
     </>
   );
 };
-
-export default Classroom;

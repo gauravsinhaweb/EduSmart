@@ -30,7 +30,8 @@ function Model(props) {
       onPointerMissed={() => (state.current = null)}
       onPointerDown={e => (
         e.stopPropagation(), (state.current = e.object.material.name)
-      )}>
+      )}
+    >
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group position={[0, 3.13, 0]} rotation={[-Math.PI / 2, 0, 0]}>
           <mesh
@@ -107,7 +108,8 @@ function Model(props) {
         <group
           position={[0, 0.9, 0]}
           rotation={[-0.96, 0.37, 0.47]}
-          scale={[0.18, 0.18, 0.18]}>
+          scale={[0.18, 0.18, 0.18]}
+        >
           <mesh
             geometry={nodes.pistons_0.geometry}
             material={nodes.pistons_0.material}
@@ -122,7 +124,8 @@ function Model(props) {
         <group
           position={[0, 0.76, -0.12]}
           rotation={[-Math.PI, 1.35, Math.PI / 2]}
-          scale={[0.09, 0.09, 0.09]}>
+          scale={[0.09, 0.09, 0.09]}
+        >
           <mesh
             geometry={nodes.electronics_side_0.geometry}
             material={nodes.electronics_side_0.material}
@@ -131,7 +134,8 @@ function Model(props) {
         <group
           position={[0, 0.81, -0.39]}
           rotation={[-Math.PI / 2, 0, -Math.PI]}
-          scale={[-1, 1, 1]}>
+          scale={[-1, 1, 1]}
+        >
           <mesh
             geometry={nodes.name_plate_0.geometry}
             material={nodes.name_plate_0.material}
@@ -140,7 +144,8 @@ function Model(props) {
         <group
           position={[0, 0.81, 0]}
           rotation={[Math.PI / 2, 0, 0]}
-          scale={0.3}>
+          scale={0.3}
+        >
           <mesh
             geometry={nodes.bolts_0.geometry}
             material={nodes.bolts_0.material}
@@ -171,7 +176,8 @@ function Model(props) {
         <group
           position={[0.04, -2.75, 0.1]}
           rotation={[0.29, 0.38, -1.68]}
-          scale={[0.22, 0.22, 0.22]}>
+          scale={[0.22, 0.22, 0.22]}
+        >
           <mesh
             geometry={nodes.clamps_0.geometry}
             material={nodes.clamps_0.material}
@@ -198,7 +204,8 @@ function Model(props) {
         <group
           position={[0, -2.16, 0]}
           rotation={[-Math.PI / 2, 0, 0]}
-          scale={0.68}>
+          scale={0.68}
+        >
           <mesh
             geometry={nodes.tube_0.geometry}
             material={nodes.tube_0.material}
@@ -271,7 +278,8 @@ export function TurbofanExplore() {
           <Canvas
             shadows
             dpr={[1, 2]}
-            camera={{ position: [-4, 2, -4], fov: 50 }}>
+            camera={{ position: [-4, 2, -4], fov: 50 }}
+          >
             <ambientLight intensity={0.7} />
             <spotLight
               intensity={0.5}

@@ -21,7 +21,8 @@ export function PlanetJupiter() {
             <Canvas
               shadows
               dpr={[1, 2]}
-              camera={{ position: [50, 50, 100], fov: 8 }}>
+              camera={{ position: [50, 50, 100], fov: 8 }}
+            >
               <OrbitControls />
 
               <ambientLight intensity={0.7} />
@@ -76,7 +77,8 @@ export function PlanetJupiter() {
                 <a
                   href="https://solarsystem.nasa.gov/gltf_embed/2375"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <button className="h-12 px-8 ml-12 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
                     View in AR
                   </button>

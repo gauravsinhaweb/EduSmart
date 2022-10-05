@@ -30,7 +30,8 @@ function Model(props) {
       onPointerMissed={() => (state.current = null)}
       onPointerDown={e => (
         e.stopPropagation(), (state.current = e.object.material.name)
-      )}>
+      )}
+    >
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group position={[0.2, 0.29, 0]} scale={[1.19, 1.27, 1.27]}>
           <mesh
@@ -41,7 +42,8 @@ function Model(props) {
         <group
           position={[-0.38, -3.27, 0.02]}
           rotation={[0, -0.06, 3.06]}
-          scale={[0.05, 0.05, 0.05]}>
+          scale={[0.05, 0.05, 0.05]}
+        >
           <mesh
             geometry={nodes.Sphere002_0.geometry}
             material={materials["Material.008"]}
@@ -62,7 +64,8 @@ function Model(props) {
         <group
           position={[1.15, -2.2, -0.37]}
           rotation={[0, 0, 0.76]}
-          scale={[0.41, 0.41, 0.41]}>
+          scale={[0.41, 0.41, 0.41]}
+        >
           <mesh
             geometry={nodes.BezierCurve002_0.geometry}
             material={materials["Material.006"]}
@@ -77,7 +80,8 @@ function Model(props) {
         <group
           position={[1.92, 0.2, -0.21]}
           rotation={[0.01, -0.04, 1.65]}
-          scale={[0.19, 0.19, 0.19]}>
+          scale={[0.19, 0.19, 0.19]}
+        >
           <mesh
             geometry={nodes.Roundcube000_0.geometry}
             material={materials["Material.011"]}
@@ -104,7 +108,8 @@ function Model(props) {
         <group
           position={[-0.38, -3.27, 0.02]}
           rotation={[0, -0.06, 3.06]}
-          scale={[0.05, 0.05, 0.05]}>
+          scale={[0.05, 0.05, 0.05]}
+        >
           <mesh
             geometry={nodes.Sphere005_0.geometry}
             material={materials["Material.007"]}
@@ -201,7 +206,8 @@ export function AnimalCellExplore() {
           <Canvas
             shadows
             dpr={[1, 2]}
-            camera={{ position: [0, 0, 4], fov: 50 }}>
+            camera={{ position: [0, 0, 4], fov: 50 }}
+          >
             <ambientLight intensity={0.7} />
             <spotLight
               intensity={0.5}

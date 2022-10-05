@@ -22,7 +22,8 @@ export function Boeing777() {
             <Canvas
               shadows
               dpr={[1, 2]}
-              camera={{ position: [-4, 4, 4], fov: 50 }}>
+              camera={{ position: [-4, 4, 4], fov: 50 }}
+            >
               <ambientLight intensity={0.7} />
               <spotLight
                 intensity={0.5}
@@ -82,7 +83,8 @@ export function Boeing777() {
                 <a
                   href="https://go.echoar.xyz/cie1"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <button className="h-12 px-8 text-base font-semibold tracking-wider text-secondary border rounded-full shadow-sm lg:mt-20 sm:mt-4 hover:shadow-lg bg-white">
                     View in AR
                   </button>
