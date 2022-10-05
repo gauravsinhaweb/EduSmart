@@ -12,13 +12,13 @@ Lets Make it Real
 
 
 ## 🧐 Problem Addressed:
-During the course of the pandemic, E-learning has proven to be an efficient an effective mode of learning. For the past year, students have been stuck in their homes attending classes online. Often, these classes are boring and lack engagement making it harder for students to retain what they have learned. Courses with practical or hands-on elements are especially challenging to teach online. This makes the ability to visualize crucial in subjects such as Aerospace, Biology, and many others. With this application, we focus on solving the problem of visualization in online classes by using 3D, Augmented reality to give life-like simulations of various models and make the learning process more impactful and engaging. With built-in interactivity, students can ask questions synchronously and get instant feedback.
-## 🔴 Live demo
+During the course of the pandemic, E-learning has proven to be an efficient and effective mode of learning. For the past year, students have been stuck in their homes attending classes online. Often, these classes are boring and lack engagement making it harder for students to retain what they have learned. Courses with practical or hands-on elements are especially challenging to teach online. This makes the ability to visualize crucial information in subjects such as Aerospace, Biology, and others difficult. With EduSmart, we focus on solving the problem of visualization in online classes by using 3D, Augmented reality to give life-like simulations of various models and make the learning process more impactful and engaging. EduSmart allows students in real-time to ask questions and get instant feedback from instructors.
+## 🔴 Live Demo
 
-The site is deployed throught Vercel, and you can access it [here](https://edu-smart.vercel.app/)  
+The site is deployed through Vercel, and you can access it [here](https://edu-smart.vercel.app/)  
 Check out the presentation for more details [here](https://www.canva.com/design/DAEpFl8JPvs/4wUFIgirVNxxOuMvdLS7MQ/view?utm_content=DAEpFl8JPvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
-## 📺 Demo video:
+## 📺 Demo Video:
 
 Check out the complete demo video [here](https://youtu.be/WpuTS0YcoEQ)
 
