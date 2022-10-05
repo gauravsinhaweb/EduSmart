@@ -2,6 +2,9 @@
 
 Required to install and run the software:
 
+#branch:
+ make a branch and name 'fix-[issue-no]' from main origin ! (MUST)
+
 - [npm](https://www.npmjs.com/get-npm)
 
 
