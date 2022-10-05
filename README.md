@@ -2,7 +2,7 @@
 <a href="#contributing"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github"></a> <a href="https://github.com/gauravsinhaweb/EduSmart/blob/master/LICENSE"> <img alt="GitHub License MIT" src="https://img.shields.io/github/license/gauravsinhaweb/EduSmart?style=for-the-badge&labelColor=black&logo=github"> </a>
 ## 🤗 Contributing
 
-Check out the [Contribution Guide](CONTRIBUTING.md) for local setup and contribution information.
+Please Check out the [Contribution Guide](CONTRIBUTING.md) first, for local setup and contribution information.
 
 ## 🏷 Tagline:
 Lets Make it Real   
