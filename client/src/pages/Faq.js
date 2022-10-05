@@ -41,7 +41,9 @@ function Faq() {
                   </details>
 
                   <details className="pb-5 border-b md:w-4/5 cursor-pointer">
-                    <summary className="card">Why EduSmart?</summary>
+                    <summary className="card hover:text-red">
+                      Why EduSmart?
+                    </summary>
                     <p className="text-gray-400 md:text-lg font-normal">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Fugit facilis est quasi modi. Explicabo debitis esse
@@ -50,7 +52,7 @@ function Faq() {
                   </details>
 
                   <details className="pb-5 border-b md:w-4/5 cursor-pointer">
-                    <summary className="card">
+                    <summary className="card hover:text-red">
                       What it can bring to you?
                     </summary>
                     <p className="text-gray-400 md:text-lg font-normal">
@@ -61,7 +63,7 @@ function Faq() {
                   </details>
 
                   <details className="pb-5 border-b md:w-4/5 cursor-pointer">
-                    <summary className="card">
+                    <summary className="card hover:text-red">
                       Have more question or want to contribute?
                     </summary>
                     <p className="text-gray-400 md:text-lg font-normal">
@@ -71,7 +73,9 @@ function Faq() {
                   </details>
 
                   <details className="pb-5 border-b md:w-4/5 cursor-pointer">
-                    <summary className="card">Can you work as a team?</summary>
+                    <summary className="card hover:text-red">
+                      Can you work as a team?
+                    </summary>
                     <p className="text-gray-400 md:text-lg font-normal">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Nesciunt recusandae assumenda expedita labore eius
@@ -80,7 +84,7 @@ function Faq() {
                   </details>
 
                   <details className="pb-5 border-b md:w-4/5 cursor-pointer">
-                    <summary className="card">
+                    <summary className="card hover:text-red">
                       How many team members can you invite?
                     </summary>
                     <p className="text-gray-400 md:text-lg font-normal">
