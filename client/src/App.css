@@ -152,3 +152,7 @@
 .icon-size {
   font-size: 1.75rem;
 }
+.blur-effect {
+  filter: blur(2px);
+  transition: filter 0.3s ease;
+}
