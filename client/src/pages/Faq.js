@@ -67,15 +67,16 @@ export const Faq = () => {
             <div className="mt-9.5 text-white space-y-4">
               {faqData.map((faq, index) => {
                 return (
-                  <details className="pb-5 border-b md:w-4/5 cursor-pointer">
+                  <details
+                    className="pb-5 border-b md:w-4/5 cursor-pointer"
+                    key={index}>
                     <summary
                       onClick={() => handleActiveIndex(index)}
                       className={`card font-medium ${
                         activeIndex.includes(index)
                           ? "text-secondary font-semibold"
                           : "hover:text-red "
-                      }`}
-                      key={index}>
+                      }`}>
                       {faq.question}
                     </summary>
                     <p className="text-gray-400 md:text-md  font-sem font-light	opacity-70 ">
