@@ -11,12 +11,21 @@ import { useHistory } from "react-router";
 const Navbar = ({ onHover, setOnHover = () => {} }) => {
   const history = useHistory();
   const [scrolling, setScrolling] = useState(false);
+  const [showing, setShowing] = useState(false);
+  let showTimeout;
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setScrolling(true);
+        setShowing(true);
+        clearTimeout(showTimeout);
+        showTimeout = setTimeout(() => {
+          setScrolling(false);
+        }, 500);
       } else {
+        clearTimeout(showTimeout);
+        setShowing(false);
         setScrolling(false);
       }
     };
@@ -31,9 +40,9 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
   return (
     <>
       <div
-        className={`rounded-lg h-screen sticky top-0 left-0 z-50 bg-tertiary transition-all group w-16 max-w-max min-w-max ${
+        className={` rounded-lg h-screen sticky top-0 left-0 z-50 bg-tertiary transition-all group w-16 max-w-max min-w-max ${
           !onHover ? "sm:w-20" : "sm:w-64"
-        } ${scrolling ? "blur-effect" : ""}`}>
+        } ${scrolling ? "blur-effect" : ""} ${showing ? "show-effect" : ""}`}>
         <div
           onClick={() => setOnHover(!onHover)}
           className={`text-white font-light text-2xl p-1 w-12 ml-4  py-12 cursor-pointer   ${
