@@ -31,7 +31,7 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
   return (
     <>
       <div
-        className={`ml-5 rounded-lg h-screen sticky top-0 left-0 z-50 bg-tertiary transition-all group w-16 max-w-max min-w-max ${
+        className={`rounded-lg h-screen sticky top-0 left-0 z-50 bg-tertiary transition-all group w-16 max-w-max min-w-max ${
           !onHover ? "sm:w-20" : "sm:w-64"
         } ${scrolling ? "blur-effect" : ""}`}>
         <div
