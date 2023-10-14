@@ -1,65 +1,57 @@
-# 🎓 EduSmart
-<a href="#contributing"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github"></a> <a href="https://github.com/gauravsinhaweb/EduSmart/blob/master/LICENSE"> <img alt="GitHub License MIT" src="https://img.shields.io/github/license/gauravsinhaweb/EduSmart?style=for-the-badge&labelColor=black&logo=github"> </a>
-## 🤗 Contributing
+# EduSmart - Open-Source E-Learning Enhancement
 
-Please Check out the [Contribution Guide](CONTRIBUTING.md) first, for local setup and contribution information.
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github)](#contributing)
+[![GitHub License MIT](https://img.shields.io/github/license/gauravsinhaweb/EduSmart?style=for-the-badge&labelColor=black&logo=github)](https://github.com/gauravsinhaweb/EduSmart/blob/master/LICENSE)
 
-## 🏷 Tagline:
-Lets Make it Real   
-<!-- ![3d](https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif) -->
-# 
-<img src="https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif" width="250px" >
+## Introduction 🌍
+Welcome to EduSmart, an open-source project aiming to revolutionize online education! In response to the challenges posed by the COVID-19 pandemic, EduSmart leverages the power of 3D models and augmented reality to enhance the e-learning experience. Traditional online classes can often be dull and uninspiring, making it difficult for students to engage with and retain information, especially in subjects requiring hands-on experience. EduSmart addresses these challenges by providing realistic simulations and interactive learning opportunities.
 
+![EduSmart Demo](https://user-images.githubusercontent.com/64855593/132103582-1ef1652d-a5da-4dbc-ba45-ae4ee4b4e640.gif)
 
-## 🧐 Problem Addressed:
-During the course of the pandemic, E-learning has proven to be an efficient and effective mode of learning. For the past year, students have been stuck in their homes attending classes online. Often, these classes are boring and lack engagement making it harder for students to retain what they have learned. Courses with practical or hands-on elements are especially challenging to teach online. This makes the ability to visualize crucial information in subjects such as Aerospace, Biology, and others difficult. With EduSmart, we focus on solving the problem of visualization in online classes by using 3D, Augmented reality to give life-like simulations of various models and make the learning process more impactful and engaging. EduSmart allows students in real-time to ask questions and get instant feedback from instructors.
-## 🔴 Live Demo
+## Contributing 🤝
+We welcome contributors to join the EduSmart project and help us make online learning more engaging and effective. To get started, please consult our [Contribution Guide](CONTRIBUTING.md) for instructions on local setup and contribution guidelines.
 
-The site is deployed through Vercel, and you can access it [here](https://edu-smart.vercel.app/)  
-Check out the presentation for more details [here](https://www.canva.com/design/DAEpFl8JPvs/4wUFIgirVNxxOuMvdLS7MQ/view?utm_content=DAEpFl8JPvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+## Tagline 🏷
+"Let's Make it Real."
 
-## 📺 Demo Video:
+## Demo 🎥
+- [Live Demo](https://edu-smart.vercel.app/)
+- [Presentation](https://www.canva.com/design/DAEpFl8JPvs/4wUFIgirVNxxOuMvdLS7MQ/view?utm_content=DAEpFl8JPvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+- [Demo Video](https://youtu.be/WpuTS0YcoEQ)
 
-Check out the complete demo video [here](https://youtu.be/WpuTS0YcoEQ)
-
-## 🚀 Main Features:
-
+## Features 🚀
 - Interactive 3D Models
-- Click on the Perseverance Rover and get information about different parts
-- Learn with Augmented Reality
+- Perseverance Rover Information
+- Augmented Reality Learning
 - Chatbot Assistant
 
-## 💻 Tech Stack:
-
+## Tech Stack 💻
+EduSmart is built using a modern tech stack that includes:
 - SAWO Labs
-- React Js
-- Node Js
-- Express Js
+- React JS
+- Node JS
+- Express JS
 - Socket IO
 - React-three-fiber
 - echoAR
 - Tailwind CSS & CSS
 
-## 🤝 Credits:
-
+## Credits 🤝
+We want to extend our gratitude to the following organizations and platforms:
 - Passwordless Authentication: [sawolabs.com](https://sawolabs.com/)
 - AR: [echoAR](https://www.echoar.xyz/)
 - 3D Models: [sketchfab.com](https://sketchfab.com)
 
-## 🖼️ Previews of the site:
-![1](https://user-images.githubusercontent.com/75125943/135756188-d82bc259-4c02-4c18-b6bf-11189b980bed.PNG)
+## Previews 🖼️
+![Preview 1](https://user-images.githubusercontent.com/75125943/135756188-d82bc259-4c02-4c18-b6bf-11189b980bed.PNG)
+![Explore](https://user-images.githubusercontent.com/75125943/136646832-4a020da9-72df-4dc3-a3ca-906950571cf9.png)
+![Screenshot](https://user-images.githubusercontent.com/75125943/136646853-019d8f87-f7e1-44db-9b6b-27f9775f8a64.png)
 
-
-![explore](https://user-images.githubusercontent.com/75125943/136646832-4a020da9-72df-4dc3-a3ca-906950571cf9.png)
-
-
-
-![Screenshot 2021-10-09 115000](https://user-images.githubusercontent.com/75125943/136646853-019d8f87-f7e1-44db-9b6b-27f9775f8a64.png)
-
-## Contributors:
-
+## Contributors 👥
 <a href="https://github.com/gauravsinhaweb/EduSmart/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=gauravsinhaweb/EduSmart" />
 </a>
 
-#### `#happy hacking!`
+
+
+## Happy Hacking! 🚀
