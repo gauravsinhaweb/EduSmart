@@ -1,7 +1,10 @@
-# EduSmart - Open-Source E-Learning Enhancement
+# EduSmart - Let's Make it Real.
 
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github)](#contributing)
 [![GitHub License MIT](https://img.shields.io/github/license/gauravsinhaweb/EduSmart?style=for-the-badge&labelColor=black&logo=github)](https://github.com/gauravsinhaweb/EduSmart/blob/master/LICENSE)
+
+
+**Feel free to contribute**
 
 ## Introduction 🌍
 Welcome to EduSmart, an open-source project aiming to revolutionize online education! In response to the challenges posed by the COVID-19 pandemic, EduSmart leverages the power of 3D models and augmented reality to enhance the e-learning experience. Traditional online classes can often be dull and uninspiring, making it difficult for students to engage with and retain information, especially in subjects requiring hands-on experience. EduSmart addresses these challenges by providing realistic simulations and interactive learning opportunities.
@@ -10,9 +13,6 @@ Welcome to EduSmart, an open-source project aiming to revolutionize online educa
 
 ## Contributing 🤝
 We welcome contributors to join the EduSmart project and help us make online learning more engaging and effective. To get started, please consult our [Contribution Guide](CONTRIBUTING.md) for instructions on local setup and contribution guidelines.
-
-## Tagline 🏷
-"Let's Make it Real."
 
 ## Demo 🎥
 - [Live Demo](https://edu-smart.vercel.app/)
