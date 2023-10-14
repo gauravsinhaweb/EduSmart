@@ -53,5 +53,4 @@ We want to extend our gratitude to the following organizations and platforms:
 </a>
 
 
-
 ## Happy Hacking! 🚀
