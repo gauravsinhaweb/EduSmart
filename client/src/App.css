@@ -156,3 +156,8 @@
   filter: blur(2px);
   transition: filter 0.3s ease;
 }
+
+.active-icon {
+  color: #FFD700; /* Gold color for active icon */
+}
+
