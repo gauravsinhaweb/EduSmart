@@ -12,7 +12,12 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
   const history = useHistory();
   const location = useLocation();
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path) => {
+    if (path === "/home") {
+      return location.pathname === "/" || location.pathname === "/home";
+    }
+    return location.pathname === path;
+  };
   
   const [scrolling, setScrolling] = useState(false);
   const [showing, setShowing] = useState(false);
@@ -61,7 +66,7 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
             isActive("/home") ? "active-icon" : ""
           }`}>
             <AiFillHome />
-          </div>
+        </div>
           <div
           onClick={() => history.push("/classroom")}
           className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
