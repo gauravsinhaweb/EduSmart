@@ -6,10 +6,19 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { RiTeamFill } from "react-icons/ri";
 import { SiGoogleclassroom } from "react-icons/si";
 import { GiMagnifyingGlass } from "react-icons/gi";
-import { useHistory } from "react-router";
+import { useHistory, useLocation } from "react-router";
 
 const Navbar = ({ onHover, setOnHover = () => {} }) => {
   const history = useHistory();
+  const location = useLocation();
+
+  const isActive = (path) => {
+    if (path === "/home") {
+      return location.pathname === "/" || location.pathname === "/home";
+    }
+    return location.pathname === path;
+  };
+  
   const [scrolling, setScrolling] = useState(false);
   const [showing, setShowing] = useState(false);
   let showTimeout;
@@ -51,30 +60,44 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
           <HiMenuAlt1 />
         </div>
         <div className={`${onHover ? "hidden" : null}`}>
-          <div
-            onClick={() => history.push("home")}
-            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
+        <div
+          onClick={() => history.push("/home")}
+          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
+            isActive("/home") ? "active-icon" : ""
+          }`}>
             <AiFillHome />
-          </div>
+        </div>
           <div
-            onClick={() => history.push("classroom")}
-            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
-            <SiGoogleclassroom />
-          </div>
-          <div
-            onClick={() => history.push("chat")}
-            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
-            <BsFillChatDotsFill />
-          </div>
-          <div
-            onClick={() => history.push("contributors")}
-            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
-            <RiTeamFill />
-          </div>
-          <div
-            onClick={() => history.push("faq")}
-            className="mt-6  cursor-pointer opacity-80 hover:opacity-100  text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4">
-            <GiMagnifyingGlass />
+          onClick={() => history.push("/classroom")}
+          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
+            isActive("/classroom") ? "active-icon" : ""
+          }`}
+        >
+          <SiGoogleclassroom />
+        </div>
+        <div
+          onClick={() => history.push("/chat")}
+          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
+            isActive("/chat") ? "active-icon" : ""
+          }`}
+        >
+          <BsFillChatDotsFill />
+        </div>
+        <div
+          onClick={() => history.push("/contributors")}
+          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
+            isActive("/contributors") ? "active-icon" : ""
+          }`}
+        >
+          <RiTeamFill />
+        </div>
+        <div
+          onClick={() => history.push("/faq")}
+          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
+            isActive("/faq") ? "active-icon" : ""
+          }`}
+        >
+          <GiMagnifyingGlass />
           </div>
         </div>
 
