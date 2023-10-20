@@ -18,7 +18,7 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
     }
     return location.pathname === path;
   };
-  
+
   const [scrolling, setScrolling] = useState(false);
   const [showing, setShowing] = useState(false);
   let showTimeout;
@@ -47,135 +47,78 @@ const Navbar = ({ onHover, setOnHover = () => {} }) => {
   }, []);
 
   return (
-    <>
-      <div
-        className={` rounded-lg h-screen sticky top-0 left-0 z-50 bg-tertiary transition-all group w-16 max-w-max min-w-max ${
-          !onHover ? "sm:w-20" : "sm:w-64"
-        } ${scrolling ? "blur-effect" : ""} ${showing ? "show-effect" : ""}`}>
-        <div
-          onClick={() => setOnHover(!onHover)}
-          className={`text-white font-light text-2xl p-1 w-12 ml-4  py-12 cursor-pointer   ${
-            onHover ? "hidden" : null
-          }`}>
-          <HiMenuAlt1 />
+    <div className={`rounded-lg h-screen sticky top-0 left-0 z-50 bg-tertiary transition-all group w-16 max-w-max min-w-max ${!onHover ? "sm:w-20" : "sm:w-64"} ${scrolling ? "blur-effect" : ""} ${showing ? "show-effect" : ""}`}>
+      <div onClick={() => setOnHover(!onHover)} className={`text-white font-light text-2xl p-1 w-12 ml-4 py-12 cursor-pointer ${onHover ? "hidden" : null}`}>
+        <HiMenuAlt1 />
+      </div>
+      <div className={`${onHover ? "hidden" : null}`}>
+        <div onClick={() => history.push("/home")} className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${isActive("/home") ? "active-icon" : ""}`}>
+          <AiFillHome />
         </div>
-        <div className={`${onHover ? "hidden" : null}`}>
-        <div
-          onClick={() => history.push("/home")}
-          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
-            isActive("/home") ? "active-icon" : ""
-          }`}>
-            <AiFillHome />
-        </div>
-          <div
-          onClick={() => history.push("/classroom")}
-          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
-            isActive("/classroom") ? "active-icon" : ""
-          }`}
-        >
+        <div onClick={() => history.push("/classroom")} className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${isActive("/classroom") ? "active-icon" : ""}`}>
           <SiGoogleclassroom />
         </div>
-        <div
-          onClick={() => history.push("/chat")}
-          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
-            isActive("/chat") ? "active-icon" : ""
-          }`}
-        >
+        <div onClick={() => history.push("/chat")} className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${isActive("/chat") ? "active-icon" : ""}`}>
           <BsFillChatDotsFill />
         </div>
-        <div
-          onClick={() => history.push("/contributors")}
-          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
-            isActive("/contributors") ? "active-icon" : ""
-          }`}
-        >
+        <div onClick={() => history.push("/contributors")} className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${isActive("/contributors") ? "active-icon" : ""}`}>
           <RiTeamFill />
         </div>
-        <div
-          onClick={() => history.push("/faq")}
-          className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${
-            isActive("/faq") ? "active-icon" : ""
-          }`}
-        >
+        <div onClick={() => history.push("/faq")} className={`mt-6 cursor-pointer opacity-80 hover:opacity-100 text-white font-light text-2xl p-1 w-8 ml-4 border-b border-white border-opacity-50 py-4 ${isActive("/faq") ? "active-icon" : ""}`}>
           <GiMagnifyingGlass />
-          </div>
-        </div>
-
-        {/* section-2 */}
-
-        <div className={`overflow-hidden	 ${!onHover ? "hidden" : "visible "}`}>
-          <div
-            onClick={() => setOnHover(!onHover)}
-            className={`ml-48 py-12 text-white font-light text-2xl p-1 w-12 ml-2 cursor-pointer ${
-              !onHover ? "hidden" : null
-            }`}>
-            <HiMenuAlt3 />
-          </div>
-          <div
-            onClick={() => history.push("home")}
-            className="flex  m-8 cursor-pointer opacity-90 hover:opacity-100 ">
-            <span className="text-white px-2  text-2xl">
-              <AiFillHome />
-            </span>
-
-            <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center">
-              Home
-            </span>
-          </div>
-          <div
-            onClick={() => history.push("classroom")}
-            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
-            <span className="text-white px-2  text-2xl flex h-12  align-center">
-              <SiGoogleclassroom />
-            </span>
-
-            <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center">
-              Classroom
-            </span>
-          </div>
-          <div
-            onClick={() => history.push("chat")}
-            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
-            <span className="text-white px-2  text-2xl flex h-12  align-center">
-              <BsFillChatDotsFill />
-            </span>
-
-            <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center">
-              Chat
-            </span>
-          </div>
-          <div
-            onClick={() => history.push("contributors")}
-            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
-            <span className="text-white px-2  text-2xl flex h-12  align-center">
-              <RiTeamFill />
-            </span>
-
-            <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center ">
-              Contributors
-            </span>
-          </div>
-
-          <div
-            onClick={() => history.push("faq")}
-            className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
-            <span className="text-white px-2  text-2xl flex h-12  align-center">
-              <GiMagnifyingGlass />
-            </span>
-
-            <span className="text-white font-light text-2xl px-2   border-b border-white border-opacity-50 flex h-12  align-center ">
-              FAQs
-            </span>
-          </div>
         </div>
       </div>
-    </>
+
+      {/* section-2 */}
+
+      <div className={`overflow-hidden ${!onHover ? "hidden" : "visible "}`}>
+        <div onClick={() => setOnHover(!onHover)} className={`ml-48 py-12 text-white font-light text-2xl p-1 w-12 ml-2 cursor-pointer ${!onHover ? "hidden" : null}`}>
+          <HiMenuAlt3 />
+        </div>
+        <div onClick={() => history.push("home")} className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
+          <span className="text-white px-2 text-2xl">
+            <AiFillHome />
+          </span>
+          <span className="text-white font-light text-2xl px-2 border-b border-white border-opacity-50 flex h-12 align-center">
+            Home
+          </span>
+        </div>
+        <div onClick={() => history.push("classroom")} className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
+          <span className="text-white px-2 text-2xl flex h-12 align-center">
+            <SiGoogleclassroom />
+          </span>
+          <span className="text-white font-light text-2xl px-2 border-b border-white border-opacity-50 flex h-12 align-center">
+            Classroom
+          </span>
+        </div>
+        <div onClick={() => history.push("chat")} className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
+          <span className="text-white px-2 text-2xl flex h-12 align-center">
+            <BsFillChatDotsFill />
+          </span>
+          <span className="text-white font-light text-2xl px-2 border-b border-white border-opacity-50 flex h-12 align-center">
+            Chat
+          </span>
+        </div>
+        <div onClick={() => history.push("contributors")} className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
+          <span className="text-white px-2 text-2xl flex h-12 align-center">
+            <RiTeamFill />
+          </span>
+          <span className="text-white font-light text-2xl px-2 border-b border-white border-opacity-50 flex h-12 align-center ">
+            Contributors
+          </span>
+        </div>
+        <div onClick={() => history.push("faq")} className="flex m-8 cursor-pointer opacity-90 hover:opacity-100">
+          <span className="text-white px-2 text-2xl flex h-12 align-center">
+            <GiMagnifyingGlass />
+          </span>
+          <span className="text-white font-light text-2xl px-2 border-b border-white border-opacity-50 flex h-12 align-center ">
+            FAQs
+          </span>
+        </div>
+      </div>
+    </div>
   );
 };
 
 Navbar.propTypes = {
-  onHover: PropTypes.bool,
-  setOnHover: PropTypes.func
-};
-
-export default Navbar;
+  onHover
