@@ -7,6 +7,7 @@ import {
   OrbitControls
 } from "@react-three/drei";
 import { proxy, useSnapshot } from "valtio";
+import ExploreLoader from './ExploreLoader'; 
 
 const state = proxy({
   current: null,
@@ -203,6 +204,7 @@ export function AnimalCellExplore() {
           <div className="text-3xl text-white font-extralight ml-48 ">
             Animal Cell
           </div>
+        <Suspense fallback={<ExploreLoader />}>
           <Canvas
             shadows
             dpr={[1, 2]}
@@ -216,7 +218,6 @@ export function AnimalCellExplore() {
               position={[10, 15, 10]}
               castShadow
             />
-            <Suspense fallback={null}>
               <Model scale={0.2} />
               <Environment preset="city" />
               <ContactShadows
@@ -228,9 +229,9 @@ export function AnimalCellExplore() {
                 blur={1.5}
                 far={0.8}
               />
-            </Suspense>
             <OrbitControls />
-          </Canvas>
+            </Canvas>
+          </Suspense>
         </div>
 
         <div className="mt-16 h-full grid place-content-center md:mt-0 md:col-span-1 p-4 text-white">

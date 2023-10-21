@@ -7,6 +7,7 @@ import {
   OrbitControls
 } from "@react-three/drei";
 import { proxy, useSnapshot } from "valtio";
+import ExploreLoader from './ExploreLoader'; 
 
 const state = proxy({
   current: null,
@@ -275,6 +276,7 @@ export function Boeing777Explore() {
           <div className="text-3xl text-white font-extralight ml-48 ">
             Boeing 777
           </div>
+        <Suspense fallback={<ExploreLoader />}>
           <Canvas
             shadows
             dpr={[1, 2]}
@@ -288,7 +290,6 @@ export function Boeing777Explore() {
               position={[10, 15, 10]}
               castShadow
             />
-            <Suspense fallback={null}>
               <Model scale={0.07} />
               <Environment preset="city" />
               <ContactShadows
@@ -300,9 +301,9 @@ export function Boeing777Explore() {
                 blur={1.5}
                 far={0.8}
               />
-            </Suspense>
             <OrbitControls />
-          </Canvas>
+            </Canvas>
+          </Suspense>
         </div>
 
         <div className="mt-16 h-full grid place-content-center md:mt-0 md:col-span-1 p-4 text-white">

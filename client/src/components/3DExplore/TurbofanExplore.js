@@ -8,6 +8,7 @@ import {
 } from "@react-three/drei";
 import { proxy, useSnapshot } from "valtio";
 import { Switch } from "react-router-dom";
+import ExploreLoader from './ExploreLoader'; 
 
 const state = proxy({
   current: null,
@@ -275,6 +276,7 @@ export function TurbofanExplore() {
           <div className="text-3xl text-white font-extralight ml-48 ">
             Aircraft Engine
           </div>
+        <Suspense fallback={<ExploreLoader />}>
           <Canvas
             shadows
             dpr={[1, 2]}
@@ -287,8 +289,7 @@ export function TurbofanExplore() {
               penumbra={1}
               position={[10, 15, 10]}
               castShadow
-            />
-            <Suspense fallback={null}>
+            />            
               <Model scale={0.6} />
               <Environment preset="city" />
               <ContactShadows
@@ -300,9 +301,9 @@ export function TurbofanExplore() {
                 blur={1.5}
                 far={0.8}
               />
-            </Suspense>
             <OrbitControls autoRotate />
-          </Canvas>
+            </Canvas>
+          </Suspense>
         </div>
 
         <div className="mt-16 h-full grid place-content-center md:mt-0 md:col-span-1 p-4 text-white">
