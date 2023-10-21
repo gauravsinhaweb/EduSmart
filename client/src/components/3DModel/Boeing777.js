@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { Environment, OrbitControls, ContactShadows } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import ModelLoader from './ModelLoader'; 
 
 const Model = () => {
   const gltf = useLoader(GLTFLoader, "/boeing777/scene.gltf");
@@ -19,6 +20,7 @@ export function Boeing777() {
       <div className="py-8">
         <div className="md:grid md:grid-cols-2 lg:mx-20 sm:mx-4">
           <div className="w-full h-1/2 md:h-full px-4 outline-none cursor-pointer lg:block">
+          <Suspense fallback={<ModelLoader />}>
             <Canvas
               shadows
               dpr={[1, 2]}
@@ -32,7 +34,6 @@ export function Boeing777() {
                 position={[10, 15, 10]}
                 castShadow
               />
-              <Suspense fallback={null}>
                 <Model />
                 <Environment preset="city" />
                 <ContactShadows
@@ -44,9 +45,9 @@ export function Boeing777() {
                   blur={1.5}
                   far={0.8}
                 />
-              </Suspense>
               <OrbitControls autoRotate />
-            </Canvas>
+              </Canvas>
+            </Suspense>
           </div>
 
           <div className="mt-5 md:mt-0">
